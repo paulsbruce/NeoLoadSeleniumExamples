@@ -1,0 +1,71 @@
+<me-host citrixSupport="false" loadWeight="1" sapSupport="false"
+    standalone="false" supportWANEmulation="false" uid="10.2.0.158" version="7.1.0;build=20191120-35">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="kubernetes.docker.internal">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Realtek USB GbE Family Controller"
+        enabled="false" isLoopBack="false" name="eth5">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:8459:2a29:226c:7caf%eth5">
+            <ip value="fe80:0:0:0:8459:2a29:226c:7caf%eth5"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Bluetooth Device (Personal Area Network)"
+        enabled="false" isLoopBack="false" name="eth4">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:e17d:717f:f511:350a%eth4">
+            <ip value="fe80:0:0:0:e17d:717f:f511:350a%eth4"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="TAP-Windows Adapter V9"
+        enabled="false" isLoopBack="false" name="eth0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:24bd:c043:6dd5:a0c%eth0">
+            <ip value="fe80:0:0:0:24bd:c043:6dd5:a0c%eth0"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Intel(R) Dual Band Wireless-AC 3165"
+        enabled="false" isLoopBack="false" name="wlan3">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="host.docker.internal">
+            <ip value="10.2.0.158"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:a5a9:b708:93a8:928e%wlan3">
+            <ip value="fe80:0:0:0:a5a9:b708:93a8:928e%wlan3"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Hyper-V Virtual Ethernet Adapter"
+        enabled="false" isLoopBack="false" name="eth24">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="pc021.mshome.net">
+            <ip value="172.17.121.49"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:e4d7:c196:5089:1f33%eth24">
+            <ip value="fe80:0:0:0:e4d7:c196:5089:1f33%eth24"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Microsoft Wi-Fi Direct Virtual Adapter"
+        enabled="false" isLoopBack="false" name="wlan2">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:15fe:e965:2357:a635%wlan2">
+            <ip value="fe80:0:0:0:15fe:e965:2357:a635%wlan2"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</me-host>

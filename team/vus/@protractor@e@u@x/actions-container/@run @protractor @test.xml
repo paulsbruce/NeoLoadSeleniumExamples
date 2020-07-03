@@ -1,0 +1,12 @@
+<custom-action actionType="Command line Action" isHit="false"
+    name="Run Protractor Test" uid="545540c1-1e00-4505-9c1a-2d3c309e47f5">
+    <description>run the test</description>
+    <custom-action-parameter name="command" type="TEXT" value="${NL-CustomResources}/selenium/runProtractorTests.sh"/>
+    <custom-action-parameter name="arg1" type="TEXT" value="--specs='test/specs/ushahidi.js'"/>
+    <custom-action-parameter name="arg2" type="TEXT" value="--headless"/>
+    <custom-action-parameter name="arg3" type="TEXT" value="--browser chrome"/>
+    <custom-action-parameter name="arg4" type="TEXT" value="--neoloadMode EndUserExperience"/>
+    <custom-action-parameter name="arg5" type="TEXT" value="--neoloadHost ${NL-ControllerIp}"/>
+    <custom-action-parameter name="arg6" type="TEXT" value="${ignoreErrorsCommandLineArg}"/>
+    <responsePageFileDescription>recorded-responses/res_4e3f75c7-d6e0-42d9-86cf-487ea0fa8bda</responsePageFileDescription>
+</custom-action>

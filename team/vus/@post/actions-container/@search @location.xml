@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Search Location" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    traceVariableNamesAsString=""
+    uid="51de5bec-15b8-41f8-a87d-535cf0bc76fd" weightsEnabled="false">
+    <weighted-embedded-action uid="33d94697-f11f-405b-b3ed-83de806bca1d"/>
+</basic-logical-action-container>

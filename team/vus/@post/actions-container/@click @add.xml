@@ -1,0 +1,16 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Click Add" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    traceVariableNamesAsString=""
+    uid="7e0f7592-6b8b-4d89-83c1-322e4cdee790" weightsEnabled="false">
+    <weighted-embedded-action uid="f69b99b3-1b0a-4590-996e-7e83edaf2efc"/>
+    <weighted-embedded-action uid="3c2dc71f-9dfc-48c2-bb4f-b45d53e62fa5"/>
+    <weighted-embedded-action uid="3391906a-0162-4951-aba9-0543863cda86"/>
+    <weighted-embedded-action uid="22951760-dbbc-4f67-aded-f3a7ee0e1694"/>
+    <weighted-embedded-action uid="01b9d140-eec5-4b49-ae1e-7754281b04b7"/>
+    <weighted-embedded-action uid="6fb4ce30-9773-46e2-8c5e-0c2e9687780a"/>
+    <weighted-embedded-action uid="0f977371-2002-4f15-9790-d16baec02668"/>
+    <weighted-embedded-action uid="98b97150-bdd0-458f-87e3-070bd931adc2"/>
+    <weighted-embedded-action uid="0cd4f300-9a5a-4b04-9f00-64010cfdd9b9"/>
+    <weighted-embedded-action uid="964b93fc-eed1-4019-bc79-9705a38c6383"/>
+</basic-logical-action-container>

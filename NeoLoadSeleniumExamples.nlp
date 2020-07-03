@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=NeoLoadSeleniumExamples
+project.version=8.0
+project.original.version=8.0
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=7.4.0
+project.id=fa511776-f53c-4175-ab99-09acf89b13d4
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=paulsbruce/NeoLoadSeleniumExamples.git

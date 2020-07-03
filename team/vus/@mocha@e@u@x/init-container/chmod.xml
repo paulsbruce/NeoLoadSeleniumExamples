@@ -1,0 +1,8 @@
+<custom-action actionType="Command line Action" isHit="false"
+    name="chmod" uid="5605324f-0fa6-4336-9f4e-abc81e560d17">
+    <description>Prep the script for execution</description>
+    <custom-action-parameter name="command" type="TEXT" value="chmod"/>
+    <custom-action-parameter name="arg1" type="TEXT" value="+x"/>
+    <custom-action-parameter name="arg2" type="TEXT" value="${NL-CustomResources}/selenium/runMochaTests.sh"/>
+    <responsePageFileDescription>recorded-responses/res_5605324f-0fa6-4336-9f4e-abc81e560d17</responsePageFileDescription>
+</custom-action>

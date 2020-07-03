@@ -1,0 +1,76 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/common/configs/uib-pagination.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/90e1fbb6-b3a2-448c-b6b3-15892b5975c3.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="90e1fbb6-b3a2-448c-b6b3-15892b5975c3">
+    <embedded-action>d90a8d23-860f-41ce-b0ee-d2ae80a79f17</embedded-action>
+    <embedded-action>ca632719-8550-4b66-973f-1436a819fcf4</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="&quot;6f5-5418707096580-gzip&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:18 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/templates/common/configs/uib-pagination.html"
+    path="/templates/common/configs/uib-pagination.html" postType="2"
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/90e1fbb6-b3a2-448c-b6b3-15892b5975c3.zip"
+    recordedResponseCode="200" recordedResponseTime="26"
+    responseSize="1781" serverUid="ushahidi" slaProfileEnabled="false"
+    uid="d90a8d23-860f-41ce-b0ee-d2ae80a79f17" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cust_351b0679-9bfd-4ec4-a6a9-898bbd477243.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_d90a8d23-860f-41ce-b0ee-d2ae80a79f17.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Date: Thu, 02 Jul 2020 17:11:05 GMT
+Server: Apache/2.4.25 (Debian)
+Last-Modified: Thu, 17 Nov 2016 22:51:18 GMT
+ETag: "6f5-5418707096580-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 507
+Content-Type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;8b-541870900efc0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:51 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/img/icons/png/plus-2x.png"
+    path="/img/icons/png/plus-2x.png" postType="2"
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/90e1fbb6-b3a2-448c-b6b3-15892b5975c3.zip"
+    recordedResponseCode="200" recordedResponseTime="25"
+    responseSize="139" serverUid="ushahidi" slaProfileEnabled="false"
+    uid="ca632719-8550-4b66-973f-1436a819fcf4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cust_1991e68c-c82c-4799-9bfd-c525dbed8ad8.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_ca632719-8550-4b66-973f-1436a819fcf4.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Date: Thu, 02 Jul 2020 17:11:05 GMT
+Server: Apache/2.4.25 (Debian)
+Last-Modified: Thu, 17 Nov 2016 22:51:51 GMT
+ETag: "8b-541870900efc0"
+Accept-Ranges: bytes
+Content-Length: 139
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

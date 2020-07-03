@@ -1,0 +1,315 @@
+<connection-jmx-custom uid="bef616bd-2bb7-469a-8a05-308605dfa17f">
+    <connection-java-url interval="5000" login="" name="jmx-custom"
+        password="" uid="c2714dab-9544-4376-a86e-4b316587014f" url="service:jmx:rmi:///jndi/rmi://1.tcp.ngrok.io:24054/jmxrmi"/>
+    <monitor-category name="java.lang" short-display-name="java.lang">
+        <monitor-category name="ClassLoading" short-display-name="ClassLoading">
+            <monitor-jmx attribute="LoadedClassCount"
+                callTime="ON_BENCH" computing="0" connection-type="32"
+                format="NUMBER" monitor="0" monitorType="int"
+                name="ClassLoading/LoadedClassCount"
+                object-name="java.lang:type=ClassLoading"
+                path="ClassLoading/LoadedClassCount" sampling="0"
+                short-display-name="LoadedClassCount" unit="">
+                <description>LoadedClassCount</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="TotalLoadedClassCount"
+                callTime="ON_BENCH" computing="0" connection-type="32"
+                format="NUMBER" monitor="0" monitorType="long"
+                name="ClassLoading/TotalLoadedClassCount"
+                object-name="java.lang:type=ClassLoading"
+                path="ClassLoading/TotalLoadedClassCount" sampling="0"
+                short-display-name="TotalLoadedClassCount" unit="">
+                <description>TotalLoadedClassCount</description>
+            </monitor-jmx>
+        </monitor-category>
+        <monitor-category name="GarbageCollector" short-display-name="GarbageCollector">
+            <monitor-category name="Copy" short-display-name="Copy">
+                <monitor-jmx attribute="CollectionCount"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="32" format="NUMBER" monitor="0"
+                    monitorType="long"
+                    name="GarbageCollector/Copy/CollectionCount"
+                    object-name="java.lang:name=Copy,type=GarbageCollector"
+                    path="GarbageCollector/Copy/CollectionCount"
+                    sampling="0" short-display-name="CollectionCount" unit="">
+                    <description>CollectionCount</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="LastGcInfo" callTime="ON_BENCH"
+                    class="javax.management.openmbean.CompositeData"
+                    computing="0" connection-type="32" format="NUMBER"
+                    method="get" monitor="0"
+                    monitorType="javax.management.openmbean.CompositeData-java.lang.Long"
+                    name="GarbageCollector/Copy/LastGcInfo-duration"
+                    object-name="java.lang:name=Copy,type=GarbageCollector"
+                    parameters="duration"
+                    parametersTypes="java.lang.String"
+                    path="GarbageCollector/Copy/LastGcInfo-duration"
+                    sampling="0"
+                    short-display-name="LastGcInfo-duration"
+                    shortId="LastGcInfo-duration" unit="">
+                    <description>LastGcInfo-duration</description>
+                </monitor-jmx>
+            </monitor-category>
+        </monitor-category>
+        <monitor-category name="Memory" short-display-name="Memory">
+            <monitor-jmx attribute="HeapMemoryUsage" callTime="ON_BENCH"
+                class="javax.management.openmbean.CompositeData"
+                computing="0" connection-type="32" format="NUMBER"
+                method="get" monitor="0"
+                monitorType="javax.management.openmbean.CompositeData-java.lang.Long"
+                name="Memory/HeapMemoryUsage-used"
+                object-name="java.lang:type=Memory" parameters="used"
+                parametersTypes="java.lang.String"
+                path="Memory/HeapMemoryUsage-used" sampling="0"
+                short-display-name="HeapMemoryUsage-used"
+                shortId="HeapMemoryUsage-used" unit="">
+                <description>HeapMemoryUsage-used</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="NonHeapMemoryUsage"
+                callTime="ON_BENCH"
+                class="javax.management.openmbean.CompositeData"
+                computing="0" connection-type="32" format="NUMBER"
+                method="get" monitor="0"
+                monitorType="javax.management.openmbean.CompositeData-java.lang.Long"
+                name="Memory/NonHeapMemoryUsage-used"
+                object-name="java.lang:type=Memory" parameters="used"
+                parametersTypes="java.lang.String"
+                path="Memory/NonHeapMemoryUsage-used" sampling="0"
+                short-display-name="NonHeapMemoryUsage-used"
+                shortId="NonHeapMemoryUsage-used" unit="">
+                <description>NonHeapMemoryUsage-used</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="ObjectPendingFinalizationCount"
+                callTime="ON_BENCH" computing="0" connection-type="32"
+                format="NUMBER" monitor="0" monitorType="int"
+                name="Memory/ObjectPendingFinalizationCount"
+                object-name="java.lang:type=Memory"
+                path="Memory/ObjectPendingFinalizationCount"
+                sampling="0"
+                short-display-name="ObjectPendingFinalizationCount" unit="">
+                <description>ObjectPendingFinalizationCount</description>
+            </monitor-jmx>
+        </monitor-category>
+        <monitor-category name="MemoryPool" short-display-name="MemoryPool">
+            <monitor-category name="Compressed Class Space" short-display-name="Compressed Class Space">
+                <monitor-jmx attribute="Usage" callTime="ON_BENCH"
+                    class="javax.management.openmbean.CompositeData"
+                    computing="0" connection-type="32" format="NUMBER"
+                    method="get" monitor="0"
+                    monitorType="javax.management.openmbean.CompositeData-java.lang.Long"
+                    name="MemoryPool/Compressed Class Space/Usage-used"
+                    object-name="java.lang:name=Compressed Class Space,type=MemoryPool"
+                    parameters="used" parametersTypes="java.lang.String"
+                    path="MemoryPool/Compressed Class Space/Usage-used"
+                    sampling="0" short-display-name="Usage-used"
+                    shortId="Usage-used" unit="">
+                    <description>Usage-used</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="Code Cache" short-display-name="Code Cache">
+                <monitor-jmx attribute="CollectionUsage"
+                    callTime="ON_BENCH"
+                    class="javax.management.openmbean.CompositeData"
+                    computing="0" connection-type="32" format="NUMBER"
+                    method="get" monitor="0"
+                    monitorType="javax.management.openmbean.CompositeData-java.lang.Long"
+                    name="MemoryPool/Code Cache/CollectionUsage-used"
+                    object-name="java.lang:name=Code Cache,type=MemoryPool"
+                    parameters="used" parametersTypes="java.lang.String"
+                    path="MemoryPool/Code Cache/CollectionUsage-used"
+                    sampling="0"
+                    short-display-name="CollectionUsage-used"
+                    shortId="CollectionUsage-used" unit="">
+                    <description>CollectionUsage-used</description>
+                </monitor-jmx>
+            </monitor-category>
+        </monitor-category>
+        <monitor-category name="OperatingSystem" short-display-name="OperatingSystem">
+            <monitor-jmx attribute="FreePhysicalMemorySize"
+                callTime="ON_BENCH" computing="0" connection-type="32"
+                format="NUMBER" monitor="0" monitorType="long"
+                name="OperatingSystem/FreePhysicalMemorySize"
+                object-name="java.lang:type=OperatingSystem"
+                path="OperatingSystem/FreePhysicalMemorySize"
+                sampling="0" short-display-name="FreePhysicalMemorySize" unit="">
+                <description>FreePhysicalMemorySize</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="OpenFileDescriptorCount"
+                callTime="ON_BENCH" computing="0" connection-type="32"
+                format="NUMBER" monitor="0" monitorType="long"
+                name="OperatingSystem/OpenFileDescriptorCount"
+                object-name="java.lang:type=OperatingSystem"
+                path="OperatingSystem/OpenFileDescriptorCount"
+                sampling="0"
+                short-display-name="OpenFileDescriptorCount" unit="">
+                <description>OpenFileDescriptorCount</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="ProcessCpuLoad" callTime="ON_BENCH"
+                computing="0" connection-type="32" format="NUMBER"
+                monitor="0" monitorType="double"
+                name="OperatingSystem/ProcessCpuLoad"
+                object-name="java.lang:type=OperatingSystem"
+                path="OperatingSystem/ProcessCpuLoad" sampling="0"
+                short-display-name="ProcessCpuLoad" unit="">
+                <description>ProcessCpuLoad</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="ProcessCpuTime" callTime="ON_BENCH"
+                computing="0" connection-type="32" format="NUMBER"
+                monitor="0" monitorType="long"
+                name="OperatingSystem/ProcessCpuTime"
+                object-name="java.lang:type=OperatingSystem"
+                path="OperatingSystem/ProcessCpuTime" sampling="0"
+                short-display-name="ProcessCpuTime" unit="">
+                <description>ProcessCpuTime</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="SystemCpuLoad" callTime="ON_BENCH"
+                computing="0" connection-type="32" format="NUMBER"
+                monitor="0" monitorType="double"
+                name="OperatingSystem/SystemCpuLoad"
+                object-name="java.lang:type=OperatingSystem"
+                path="OperatingSystem/SystemCpuLoad" sampling="0"
+                short-display-name="SystemCpuLoad" unit="">
+                <description>SystemCpuLoad</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="SystemLoadAverage"
+                callTime="ON_BENCH" computing="0" connection-type="32"
+                format="NUMBER" monitor="0" monitorType="double"
+                name="OperatingSystem/SystemLoadAverage"
+                object-name="java.lang:type=OperatingSystem"
+                path="OperatingSystem/SystemLoadAverage" sampling="0"
+                short-display-name="SystemLoadAverage" unit="">
+                <description>SystemLoadAverage</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="TotalPhysicalMemorySize"
+                callTime="ON_BENCH" computing="0" connection-type="32"
+                format="NUMBER" monitor="0" monitorType="long"
+                name="OperatingSystem/TotalPhysicalMemorySize"
+                object-name="java.lang:type=OperatingSystem"
+                path="OperatingSystem/TotalPhysicalMemorySize"
+                sampling="0"
+                short-display-name="TotalPhysicalMemorySize" unit="">
+                <description>TotalPhysicalMemorySize</description>
+            </monitor-jmx>
+        </monitor-category>
+        <monitor-category name="Threading" short-display-name="Threading">
+            <monitor-jmx attribute="CurrentThreadCpuTime"
+                callTime="ON_BENCH" computing="0" connection-type="32"
+                format="NUMBER" monitor="0" monitorType="long"
+                name="Threading/CurrentThreadCpuTime"
+                object-name="java.lang:type=Threading"
+                path="Threading/CurrentThreadCpuTime" sampling="0"
+                short-display-name="CurrentThreadCpuTime" unit="">
+                <description>CurrentThreadCpuTime</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="CurrentThreadUserTime"
+                callTime="ON_BENCH" computing="0" connection-type="32"
+                format="NUMBER" monitor="0" monitorType="long"
+                name="Threading/CurrentThreadUserTime"
+                object-name="java.lang:type=Threading"
+                path="Threading/CurrentThreadUserTime" sampling="0"
+                short-display-name="CurrentThreadUserTime" unit="">
+                <description>CurrentThreadUserTime</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="DaemonThreadCount"
+                callTime="ON_BENCH" computing="0" connection-type="32"
+                format="NUMBER" monitor="0" monitorType="int"
+                name="Threading/DaemonThreadCount"
+                object-name="java.lang:type=Threading"
+                path="Threading/DaemonThreadCount" sampling="0"
+                short-display-name="DaemonThreadCount" unit="">
+                <description>DaemonThreadCount</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="PeakThreadCount" callTime="ON_BENCH"
+                computing="0" connection-type="32" format="NUMBER"
+                monitor="0" monitorType="int"
+                name="Threading/PeakThreadCount"
+                object-name="java.lang:type=Threading"
+                path="Threading/PeakThreadCount" sampling="0"
+                short-display-name="PeakThreadCount" unit="">
+                <description>PeakThreadCount</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="ThreadCount" callTime="ON_BENCH"
+                computing="0" connection-type="32" format="NUMBER"
+                monitor="0" monitorType="int"
+                name="Threading/ThreadCount"
+                object-name="java.lang:type=Threading"
+                path="Threading/ThreadCount" sampling="0"
+                short-display-name="ThreadCount" unit="">
+                <description>ThreadCount</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="TotalStartedThreadCount"
+                callTime="ON_BENCH" computing="0" connection-type="32"
+                format="NUMBER" monitor="0" monitorType="long"
+                name="Threading/TotalStartedThreadCount"
+                object-name="java.lang:type=Threading"
+                path="Threading/TotalStartedThreadCount" sampling="0"
+                short-display-name="TotalStartedThreadCount" unit="">
+                <description>TotalStartedThreadCount</description>
+            </monitor-jmx>
+        </monitor-category>
+    </monitor-category>
+    <monitor-category name="java.nio" short-display-name="java.nio">
+        <monitor-category name="BufferPool" short-display-name="BufferPool">
+            <monitor-category name="direct" short-display-name="direct">
+                <monitor-jmx attribute="Count" callTime="ON_BENCH"
+                    computing="0" connection-type="32" format="NUMBER"
+                    monitor="0" monitorType="long"
+                    name="BufferPool/direct/Count"
+                    object-name="java.nio:name=direct,type=BufferPool"
+                    path="BufferPool/direct/Count" sampling="0"
+                    short-display-name="Count" unit="">
+                    <description>Count</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="MemoryUsed" callTime="ON_BENCH"
+                    computing="0" connection-type="32" format="NUMBER"
+                    monitor="0" monitorType="long"
+                    name="BufferPool/direct/MemoryUsed"
+                    object-name="java.nio:name=direct,type=BufferPool"
+                    path="BufferPool/direct/MemoryUsed" sampling="0"
+                    short-display-name="MemoryUsed" unit="">
+                    <description>MemoryUsed</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="TotalCapacity"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="32" format="NUMBER" monitor="0"
+                    monitorType="long"
+                    name="BufferPool/direct/TotalCapacity"
+                    object-name="java.nio:name=direct,type=BufferPool"
+                    path="BufferPool/direct/TotalCapacity" sampling="0"
+                    short-display-name="TotalCapacity" unit="">
+                    <description>TotalCapacity</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="mapped" short-display-name="mapped">
+                <monitor-jmx attribute="Count" callTime="ON_BENCH"
+                    computing="0" connection-type="32" format="NUMBER"
+                    monitor="0" monitorType="long"
+                    name="BufferPool/mapped/Count"
+                    object-name="java.nio:name=mapped,type=BufferPool"
+                    path="BufferPool/mapped/Count" sampling="0"
+                    short-display-name="Count" unit="">
+                    <description>Count</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="MemoryUsed" callTime="ON_BENCH"
+                    computing="0" connection-type="32" format="NUMBER"
+                    monitor="0" monitorType="long"
+                    name="BufferPool/mapped/MemoryUsed"
+                    object-name="java.nio:name=mapped,type=BufferPool"
+                    path="BufferPool/mapped/MemoryUsed" sampling="0"
+                    short-display-name="MemoryUsed" unit="">
+                    <description>MemoryUsed</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="TotalCapacity"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="32" format="NUMBER" monitor="0"
+                    monitorType="long"
+                    name="BufferPool/mapped/TotalCapacity"
+                    object-name="java.nio:name=mapped,type=BufferPool"
+                    path="BufferPool/mapped/TotalCapacity" sampling="0"
+                    short-display-name="TotalCapacity" unit="">
+                    <description>TotalCapacity</description>
+                </monitor-jmx>
+            </monitor-category>
+        </monitor-category>
+    </monitor-category>
+</connection-jmx-custom>

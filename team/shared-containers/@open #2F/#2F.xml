@@ -1,0 +1,325 @@
+<http-page executeResourcesDynamically="false" name="/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/641f17fd-5b19-46ac-a0b7-d51a8679b9cc.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="641f17fd-5b19-46ac-a0b7-d51a8679b9cc">
+    <embedded-action>b4b10f37-9539-4632-92b9-62d83c70716e</embedded-action>
+    <embedded-action>ee313fff-8538-4753-a0f7-128de4f16a31</embedded-action>
+    <embedded-action>7334d5fd-5324-4ec3-806e-f2b6d66232ea</embedded-action>
+    <embedded-action>df29eac7-8972-40b7-8345-3f0f621dd1d1</embedded-action>
+    <embedded-action>9dc85c2b-a0a1-4500-8e8a-c66729fffef0</embedded-action>
+    <embedded-action>8979206e-5d09-48a1-852e-1617ef6ea98e</embedded-action>
+    <embedded-action>86efb76c-de6c-4272-8d69-14fe3459ec9f</embedded-action>
+    <embedded-action>7998c8f2-5055-4f3a-8210-3e0244d01813</embedded-action>
+    <embedded-action>04c88193-54b0-4797-b386-ee43f4e37638</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="&quot;1a82-54186f405d7c0-gzip&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:45:59 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/" path="/" postType="2"
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/641f17fd-5b19-46ac-a0b7-d51a8679b9cc.zip"
+    recordedResponseCode="200" recordedResponseTime="167"
+    responseSize="6786" serverUid="ushahidi" slaProfileEnabled="false"
+    uid="b4b10f37-9539-4632-92b9-62d83c70716e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cust_c6277394-15e8-48ea-acce-d6d3e3009ac7.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_b4b10f37-9539-4632-92b9-62d83c70716e.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Date: Thu, 02 Jul 2020 17:11:02 GMT
+Server: Apache/2.4.25 (Debian)
+Last-Modified: Thu, 17 Nov 2016 22:45:59 GMT
+ETag: "1a82-54186f405d7c0-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 2027
+Content-Type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;d73-5418708f1ad80-gzip&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:50 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/fonts/Lato/css/fonts.css"
+    path="/fonts/Lato/css/fonts.css" postType="2"
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/641f17fd-5b19-46ac-a0b7-d51a8679b9cc.zip"
+    recordedResponseCode="200" recordedResponseTime="31"
+    responseSize="3443" serverUid="ushahidi" slaProfileEnabled="false"
+    uid="ee313fff-8538-4753-a0f7-128de4f16a31" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cust_e4c82c20-688f-4bbc-8b1e-e33cd5f07699.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_ee313fff-8538-4753-a0f7-128de4f16a31.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css,*/*;q=0.1"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Date: Thu, 02 Jul 2020 17:11:02 GMT
+Server: Apache/2.4.25 (Debian)
+Last-Modified: Thu, 17 Nov 2016 22:51:50 GMT
+ETag: "d73-5418708f1ad80-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 414
+Content-Type: text/css</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;55a9-5418707096580-gzip&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:18 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/css/vendor.css" path="/css/vendor.css"
+    postType="2"
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/641f17fd-5b19-46ac-a0b7-d51a8679b9cc.zip"
+    recordedResponseCode="200" recordedResponseTime="29"
+    responseSize="21929" serverUid="ushahidi" slaProfileEnabled="false"
+    uid="7334d5fd-5324-4ec3-806e-f2b6d66232ea" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cust_80a6b584-66ac-4063-b444-2d52de18a85a.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_7334d5fd-5324-4ec3-806e-f2b6d66232ea.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css,*/*;q=0.1"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Date: Thu, 02 Jul 2020 17:11:02 GMT
+Server: Apache/2.4.25 (Debian)
+Last-Modified: Thu, 17 Nov 2016 22:51:18 GMT
+ETag: "55a9-5418707096580-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 4846
+Content-Type: text/css</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;80e76-5418706fa2340-gzip&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:17 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/css/style.css" path="/css/style.css"
+    postType="2"
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/641f17fd-5b19-46ac-a0b7-d51a8679b9cc.zip"
+    recordedResponseCode="200" recordedResponseTime="330"
+    responseSize="527990" serverUid="ushahidi" slaProfileEnabled="false"
+    uid="df29eac7-8972-40b7-8345-3f0f621dd1d1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cust_7fe401b0-6141-4c46-9ad8-b80035bc2e25.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_df29eac7-8972-40b7-8345-3f0f621dd1d1.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css,*/*;q=0.1"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Date: Thu, 02 Jul 2020 17:11:02 GMT
+Server: Apache/2.4.25 (Debian)
+Last-Modified: Thu, 17 Nov 2016 22:51:17 GMT
+ETag: "80e76-5418706fa2340-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 116787
+Content-Type: text/css</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;8f-541876ad09c00-gzip&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 23:19:12 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/config.js" path="/config.js" postType="2"
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/641f17fd-5b19-46ac-a0b7-d51a8679b9cc.zip"
+    recordedResponseCode="200" recordedResponseTime="39"
+    refererUid="b4b10f37-9539-4632-92b9-62d83c70716e" responseSize="143"
+    serverUid="ushahidi" slaProfileEnabled="false"
+    uid="9dc85c2b-a0a1-4500-8e8a-c66729fffef0" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cust_4c6daa3f-2fb1-4546-bc7c-f16cd6c4da8f</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_9dc85c2b-a0a1-4500-8e8a-c66729fffef0.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Date: Thu, 02 Jul 2020 17:11:02 GMT
+Server: Apache/2.4.25 (Debian)
+Last-Modified: Thu, 17 Nov 2016 23:19:12 GMT
+ETag: "8f-541876ad09c00-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 131
+Content-Type: application/javascript</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;16ee8d-5725cc426fb40-gzip&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 01 Aug 2018 10:00:37 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/js/bundle.js" path="/js/bundle.js" postType="2"
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/641f17fd-5b19-46ac-a0b7-d51a8679b9cc.zip"
+    recordedResponseCode="200" recordedResponseTime="439"
+    refererUid="b4b10f37-9539-4632-92b9-62d83c70716e"
+    responseSize="1502861" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="8979206e-5d09-48a1-852e-1617ef6ea98e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cust_38c84752-3935-4c82-8e75-f5c59a2a3ad9</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_8979206e-5d09-48a1-852e-1617ef6ea98e.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="fp_oauth_client_secret"
+        regExp="OAUTH_CLIENT_SECRET:&quot;(.*?)&quot;"
+        regExpAdv="OAUTH_CLIENT_SECRET:&quot;(.*?)&quot;"
+        setDefaultValue="true" startsWithSimple="" template="$1$"
+        templateAdv="$1$" uid="863105cb-dd4d-4a06-bbcd-3bdb43beb3a2" xpath=""/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Date: Thu, 02 Jul 2020 17:11:02 GMT
+Server: Apache/2.4.25 (Debian)
+Last-Modified: Wed, 01 Aug 2018 10:00:37 GMT
+ETag: "16ee8d-5725cc426fb40-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 417371
+Content-Type: application/javascript</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType=""
+    eTag="&quot;aaf0-5418708f1ad80&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:50 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/fonts/Lato/fonts/LatoLatin-Regular.woff2"
+    path="/fonts/Lato/fonts/LatoLatin-Regular.woff2" postType="2"
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/641f17fd-5b19-46ac-a0b7-d51a8679b9cc.zip"
+    recordedResponseCode="200" recordedResponseTime="166"
+    responseSize="43760" serverUid="ushahidi" slaProfileEnabled="false"
+    uid="86efb76c-de6c-4272-8d69-14fe3459ec9f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cust_7635bbd3-591c-4d22-9914-7fe2379515c4</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_86efb76c-de6c-4272-8d69-14fe3459ec9f.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Origin" value="http://ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/fonts/Lato/css/fonts.css"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Date: Thu, 02 Jul 2020 17:11:02 GMT
+Server: Apache/2.4.25 (Debian)
+Last-Modified: Thu, 17 Nov 2016 22:51:50 GMT
+ETag: "aaf0-5418708f1ad80"
+Accept-Ranges: bytes
+Content-Length: 43760</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/config"
+    path="/platform/api/v3/config" postType="2"
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/641f17fd-5b19-46ac-a0b7-d51a8679b9cc.zip"
+    recordedResponseCode="200" recordedResponseTime="96"
+    responseSize="2361" serverUid="ushahidi" slaProfileEnabled="false"
+    uid="7998c8f2-5055-4f3a-8210-3e0244d01813" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cust_0cdfd546-0f87-4c67-a2e6-42f75d1033c7</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_7998c8f2-5055-4f3a-8210-3e0244d01813.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Date: Thu, 02 Jul 2020 17:11:02 GMT
+Server: Apache/2.4.25 (Debian)
+X-Powered-By: PHP/7.0.31
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Authorization, Content-type
+Allow: GET, PUT, OPTIONS
+Access-Control-Allow-Methods: GET, PUT, OPTIONS
+Content-Length: 2361
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    eTag="&quot;41a-541870718a7c0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:19 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/locales/languages.json"
+    path="/locales/languages.json" postType="2"
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/641f17fd-5b19-46ac-a0b7-d51a8679b9cc.zip"
+    recordedResponseCode="200" recordedResponseTime="60"
+    responseSize="1050" serverUid="ushahidi" slaProfileEnabled="false"
+    uid="04c88193-54b0-4797-b386-ee43f4e37638" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cust_a74fe642-608f-49c3-80a8-92cd8706f9b0</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_04c88193-54b0-4797-b386-ee43f4e37638.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Date: Thu, 02 Jul 2020 17:11:02 GMT
+Server: Apache/2.4.25 (Debian)
+Last-Modified: Thu, 17 Nov 2016 22:51:19 GMT
+ETag: "41a-541870718a7c0"
+Accept-Ranges: bytes
+Content-Length: 1050
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

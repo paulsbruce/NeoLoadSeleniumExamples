@@ -1,0 +1,15 @@
+<custom-action actionType="Command line Action" isHit="false"
+    name="chmod" uid="ac5e8bc7-e40e-4efd-bfa4-3aa51656ac14">
+    <description>Launches a program on the Load Generator machine. Jars and resources copied under the 'custom-resources' folder of the project are automatically copied to all Load Generators.
+Use the variable '${NL-CustomResources}' to access the synchronized folder on the Load Generator.
+
+Possible parameters are:
+- command: The command to launch or program executable file
+- argX: Command argument number X (eg: arg1, arg2, ...)
+- charset: The charset used by the console. Default platform charset is used if not set.
+- closeInput: close the input after launching the cmd process, it allows to execute powershell commands.</description>
+    <custom-action-parameter name="command" type="TEXT" value="chmod"/>
+    <custom-action-parameter name="arg1" type="TEXT" value="+x"/>
+    <custom-action-parameter name="arg2" type="TEXT" value="${NL-CustomResources}/selenium/runProtractorTests.sh"/>
+    <responsePageFileDescription>recorded-responses/res_4c87a65f-4c49-4279-8183-2c39f1b2f421</responsePageFileDescription>
+</custom-action>

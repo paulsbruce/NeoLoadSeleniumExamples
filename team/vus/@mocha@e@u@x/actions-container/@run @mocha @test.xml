@@ -1,0 +1,12 @@
+<custom-action actionType="Command line Action" isHit="true"
+    name="Run Mocha Test" uid="f0a3267d-9f5f-44d5-9459-cfd35994d679">
+    <description>run the test</description>
+    <custom-action-parameter name="command" type="TEXT" value="${NL-CustomResources}/selenium/runMochaTests.sh"/>
+    <custom-action-parameter name="arg1" type="TEXT" value="--spec ./test/specs/ushahidi.js"/>
+    <custom-action-parameter name="arg2" type="TEXT" value="--headless"/>
+    <custom-action-parameter name="arg3" type="TEXT" value="--browser chrome"/>
+    <custom-action-parameter name="arg4" type="TEXT" value="--neoloadMode EndUserExperience"/>
+    <custom-action-parameter name="arg5" type="TEXT" value="--neoloadHost ${NL-ControllerIp}"/>
+    <custom-action-parameter name="arg6" type="TEXT" value="${ignoreErrorsCommandLineArg}"/>
+    <responsePageFileDescription>recorded-responses/res_1644f499-01c3-46c8-8f82-7cb1e3f92b44</responsePageFileDescription>
+</custom-action>

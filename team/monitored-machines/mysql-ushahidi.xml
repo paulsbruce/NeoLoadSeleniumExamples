@@ -1,0 +1,3 @@
+<monitored-host host-name="mysql-ushahidi" mehost-name="localhost" uid="mysql-ushahidi">
+    <embedded-action>805ef1b2-7e67-4fa4-8830-85f2464feb61</embedded-action>
+</monitored-host>

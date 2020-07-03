@@ -1,0 +1,16 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Click Weather alert v1.2" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" traceVariableNamesAsString=""
+    uid="af8c2b0e-3ea0-4be6-8f9a-daa09c7c14e8" weightsEnabled="false">
+    <weighted-embedded-action uid="be533028-3b60-46b7-a7ce-0436f79d53b7"/>
+    <weighted-embedded-action uid="9ae6a637-188d-4f72-a239-5e72972c6cc5"/>
+    <weighted-embedded-action uid="cfe5e7bb-0e54-40ad-8a21-c019f47f0527"/>
+    <weighted-embedded-action uid="fe40209c-2a74-40ed-be6a-3ee62e8862ba"/>
+    <weighted-embedded-action uid="131e106e-3b92-445c-8916-ccb56be667f0"/>
+    <weighted-embedded-action uid="b6bdf16a-166f-4394-a41d-dc785a92c8df"/>
+    <weighted-embedded-action uid="54877735-f591-4d1b-afee-4f403ad74b99"/>
+    <weighted-embedded-action uid="45d70e2a-3b16-46c4-9596-af0a783b75e5"/>
+    <weighted-embedded-action uid="64d99a28-fe65-4f38-8c73-aa7bf84a0491"/>
+    <weighted-embedded-action uid="6d3981ee-2667-48a1-b1f0-cd987c2330bd"/>
+</basic-logical-action-container>
