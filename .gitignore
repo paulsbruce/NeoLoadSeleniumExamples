@@ -3,7 +3,6 @@
 /config.zip.bak.old
 /*.bak
 /.~lock.*#
-/.DS_Store
 /config/
 /reports/
 /comparative-summary/
@@ -12,3 +11,4 @@
 /recorded-screenshots/
 /results/
 /SqlTemp/
+.DS_Store
