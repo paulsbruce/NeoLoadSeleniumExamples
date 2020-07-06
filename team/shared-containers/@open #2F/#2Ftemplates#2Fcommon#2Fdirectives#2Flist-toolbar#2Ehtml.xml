@@ -1,27 +1,24 @@
 <http-page executeResourcesDynamically="false"
     name="/templates/common/directives/list-toolbar.html"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/9be3af4e-941c-4394-887f-3169c169b181.zip"
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/2077063b-aa4e-4823-a6b6-e54c2da2ae7d.zip"
     slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="9be3af4e-941c-4394-887f-3169c169b181">
-    <embedded-action>6210481f-79c4-4bce-8783-d414ec9bb278</embedded-action>
+    thinkTimeRangeStart="" uid="2077063b-aa4e-4823-a6b6-e54c2da2ae7d">
+    <embedded-action>95518443-ac74-4c14-b156-0f9e3931700f</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
-    eTag="&quot;1fe-5418707372c40-gzip&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
-    lastModified="Thu, 17 Nov 2016 22:51:21 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/templates/common/directives/list-toolbar.html"
     path="/templates/common/directives/list-toolbar.html" postType="2"
-    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/9be3af4e-941c-4394-887f-3169c169b181.zip"
-    recordedResponseCode="200" recordedResponseTime="33"
-    responseSize="510" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="6210481f-79c4-4bce-8783-d414ec9bb278" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_cust_873c44a6-38a1-49b1-82a4-ee70a0348226.html</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_cust_6210481f-79c4-4bce-8783-d414ec9bb278.txt</requestContentFileDescription>
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/2077063b-aa4e-4823-a6b6-e54c2da2ae7d.zip"
+    recordedResponseCode="200" responseSize="510" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="95518443-ac74-4c14-b156-0f9e3931700f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_95518443-ac74-4c14-b156-0f9e3931700f.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_95518443-ac74-4c14-b156-0f9e3931700f.txt</requestContentFileDescription>
     <header name="Accept" value="application/json, text/plain, */*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
     <header name="Accept-Language" value="en-US,en;q=0.9"/>
@@ -29,15 +26,15 @@
     <header name="Proxy-Connection" value="keep-alive"/>
     <header name="Referer" value="http://ushahidi/views/map"/>
     <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
-    <responseHeaders>HTTP/1.1 200 OK
-Date: Thu, 02 Jul 2020 17:11:05 GMT
-Server: Apache/2.4.25 (Debian)
-Last-Modified: Thu, 17 Nov 2016 22:51:21 GMT
-ETag: "1fe-5418707372c40-gzip"
-Accept-Ranges: bytes
-Vary: Accept-Encoding
-Content-Encoding: gzip
-Content-Length: 231
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 06 Jul 2020 13:06:21 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:21 GMT&#xd;
+ETag: "1fe-5418707372c40-gzip"&#xd;
+Accept-Ranges: bytes&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 231&#xd;
 Content-Type: text/html</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>

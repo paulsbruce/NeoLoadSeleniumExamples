@@ -1,11 +1,11 @@
 <http-page executeResourcesDynamically="false"
     name="/templates/main/posts/modify/post-value-edit.html"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/131e106e-3b92-445c-8916-ccb56be667f0.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/064692ce-b40f-4ec5-a78e-1b9764c12050.zip"
     slaProfileEnabled="false" thinkTime="171"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="131e106e-3b92-445c-8916-ccb56be667f0">
-    <embedded-action>bc4e1681-bac1-4baa-a9a0-9ae6b6d2af26</embedded-action>
+    thinkTimeRangeStart="" uid="064692ce-b40f-4ec5-a78e-1b9764c12050">
+    <embedded-action>4b0a9934-93c9-4ff7-a7ea-ffba595388dd</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
     eTag="&quot;1f48-5418708f1ad80-gzip&quot;"
@@ -18,10 +18,10 @@
     name="/templates/main/posts/modify/post-value-edit.html"
     path="/templates/main/posts/modify/post-value-edit.html"
     postType="2"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/131e106e-3b92-445c-8916-ccb56be667f0.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/064692ce-b40f-4ec5-a78e-1b9764c12050.zip"
     recordedResponseCode="200" recordedResponseTime="30"
     responseSize="8008" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="bc4e1681-bac1-4baa-a9a0-9ae6b6d2af26" useKeepAlive="false">
+    uid="4b0a9934-93c9-4ff7-a7ea-ffba595388dd" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_ed5c49e9-b030-462e-8057-823ee9fc379d.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_bc4e1681-bac1-4baa-a9a0-9ae6b6d2af26.txt</requestContentFileDescription>
     <header name="Accept" value="application/json, text/plain, */*"/>

@@ -1,0 +1,4 @@
+<http-server hostname="ocsp.digicert.com" port="80" ssl="false"
+    uid="ocsp.digicert.com" urlrewriting-argument-name=""
+    urlrewriting-enabled="false" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

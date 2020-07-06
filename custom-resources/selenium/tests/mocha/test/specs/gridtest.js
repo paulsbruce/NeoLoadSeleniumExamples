@@ -1,8 +1,5 @@
 describe('Selenium Grid Console', () => {
-  it('should have proper configuration', function() {
-
-    browser.setScriptName(this.test.fullTitle())
-    
+  it('should have proper configuration', function() {    
     // load home
     browser.url('http://localhost:4444/')
     browser.pause(1000)

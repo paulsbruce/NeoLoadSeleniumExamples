@@ -1,11 +1,11 @@
 <http-page executeResourcesDynamically="false"
     name="/templates/main/posts/modify/relation.html"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/54877735-f591-4d1b-afee-4f403ad74b99.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/120f4d5d-193d-4de6-940d-be4523aba1e9.zip"
     slaProfileEnabled="false" thinkTime="17"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="54877735-f591-4d1b-afee-4f403ad74b99">
-    <embedded-action>c92f3ef8-f636-4234-84e5-5e7789114d0f</embedded-action>
+    thinkTimeRangeStart="" uid="120f4d5d-193d-4de6-940d-be4523aba1e9">
+    <embedded-action>2d140554-6ba6-4c82-b9a2-9e1c0c65cc59</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
     eTag="&quot;29e-5418708f1ad80-gzip&quot;"
@@ -16,10 +16,10 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/templates/main/posts/modify/relation.html"
     path="/templates/main/posts/modify/relation.html" postType="2"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/54877735-f591-4d1b-afee-4f403ad74b99.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/120f4d5d-193d-4de6-940d-be4523aba1e9.zip"
     recordedResponseCode="200" recordedResponseTime="25"
     responseSize="670" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="c92f3ef8-f636-4234-84e5-5e7789114d0f" useKeepAlive="false">
+    uid="2d140554-6ba6-4c82-b9a2-9e1c0c65cc59" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_3cd7ad91-9a6a-4419-9cf4-edcfbc294309.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_c92f3ef8-f636-4234-84e5-5e7789114d0f.txt</requestContentFileDescription>
     <header name="Accept" value="application/json, text/plain, */*"/>

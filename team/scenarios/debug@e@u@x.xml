@@ -252,7 +252,6 @@
                 path="Selenium/Selenium Grid Console should have proper configuration/Click console/W3C/browser/domContentLoad"
                 scale="1.0" selected="true" unit="ms"/>
         </chart-description>
-        <empty-chart-description/>
         <chart-description autoRange="true"
             chart-description-type="chart-description-type"
             domainMarkerVisible="true" granularityLevel="0"
@@ -268,7 +267,6 @@
                 path="Selenium/Selenium Grid Console should have proper configuration/Click View Verbose/W3C/net/requestToResponseEnd"
                 scale="1.0" selected="true" unit="ms"/>
         </chart-description>
-        <empty-chart-description/>
     </charts-model-description>
     <!--****** END DASHBOARDS  ******-->
     <!--****** START DATA FILTERS  ******-->

@@ -1,11 +1,11 @@
 <http-page executeResourcesDynamically="false"
     name="/templates/main/posts/common/collection-toggle/collection-toggle-link.html"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/20b437ee-0d6f-47de-bc35-e572b59dbcf7.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/9085fb0f-ddcc-43d0-9838-36567802e1b6.zip"
     slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="20b437ee-0d6f-47de-bc35-e572b59dbcf7">
-    <embedded-action>9c971678-8b9c-490d-b023-900da7f824ec</embedded-action>
+    thinkTimeRangeStart="" uid="9085fb0f-ddcc-43d0-9838-36567802e1b6">
+    <embedded-action>88585e1b-75df-4d67-9cb1-9c910069b309</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
     eTag="&quot;132-5418708f1ad80-gzip&quot;"
@@ -18,10 +18,10 @@
     name="/templates/main/posts/common/collection-toggle/collection-toggle-link.html"
     path="/templates/main/posts/common/collection-toggle/collection-toggle-link.html"
     postType="2"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/20b437ee-0d6f-47de-bc35-e572b59dbcf7.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/9085fb0f-ddcc-43d0-9838-36567802e1b6.zip"
     recordedResponseCode="200" recordedResponseTime="30"
     responseSize="306" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="9c971678-8b9c-490d-b023-900da7f824ec" useKeepAlive="false">
+    uid="88585e1b-75df-4d67-9cb1-9c910069b309" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_df70e307-0008-4bb0-aa24-425226f7ddf2.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_9c971678-8b9c-490d-b023-900da7f824ec.txt</requestContentFileDescription>
     <header name="Accept" value="application/json, text/plain, */*"/>

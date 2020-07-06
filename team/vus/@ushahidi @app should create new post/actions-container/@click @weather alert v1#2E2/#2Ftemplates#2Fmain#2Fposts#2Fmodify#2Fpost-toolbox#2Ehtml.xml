@@ -1,11 +1,11 @@
 <http-page executeResourcesDynamically="false"
     name="/templates/main/posts/modify/post-toolbox.html"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/cfe5e7bb-0e54-40ad-8a21-c019f47f0527.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/6a9aa7e6-7178-44ce-a571-c1f075d113a0.zip"
     slaProfileEnabled="false" thinkTime="62"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="cfe5e7bb-0e54-40ad-8a21-c019f47f0527">
-    <embedded-action>1059237b-300d-493b-a3dd-4b1a7ef8f7da</embedded-action>
+    thinkTimeRangeStart="" uid="6a9aa7e6-7178-44ce-a571-c1f075d113a0">
+    <embedded-action>db7056f9-f3ac-4c42-84e2-0d75537ffd07</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
     eTag="&quot;1312-5418708f1ad80-gzip&quot;"
@@ -16,10 +16,10 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/templates/main/posts/modify/post-toolbox.html"
     path="/templates/main/posts/modify/post-toolbox.html" postType="2"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/cfe5e7bb-0e54-40ad-8a21-c019f47f0527.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/6a9aa7e6-7178-44ce-a571-c1f075d113a0.zip"
     recordedResponseCode="200" recordedResponseTime="35"
     responseSize="4882" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="1059237b-300d-493b-a3dd-4b1a7ef8f7da" useKeepAlive="false">
+    uid="db7056f9-f3ac-4c42-84e2-0d75537ffd07" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_5c28f891-3958-43c2-9fc5-f0e6927fa8dc.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_1059237b-300d-493b-a3dd-4b1a7ef8f7da.txt</requestContentFileDescription>
     <header name="Accept" value="application/json, text/plain, */*"/>

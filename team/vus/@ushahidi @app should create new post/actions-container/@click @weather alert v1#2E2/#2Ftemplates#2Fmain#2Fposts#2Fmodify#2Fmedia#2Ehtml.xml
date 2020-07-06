@@ -1,11 +1,11 @@
 <http-page executeResourcesDynamically="false"
     name="/templates/main/posts/modify/media.html"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/45d70e2a-3b16-46c4-9596-af0a783b75e5.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/1c43ea8d-0c9b-44ce-8d9e-40fe56895dde.zip"
     slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="45d70e2a-3b16-46c4-9596-af0a783b75e5">
-    <embedded-action>746e2467-2e71-47df-934d-e0edf02b5d88</embedded-action>
+    thinkTimeRangeStart="" uid="1c43ea8d-0c9b-44ce-8d9e-40fe56895dde">
+    <embedded-action>0a3842d0-b61e-4fa8-b288-8dc5cb505ad9</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
     eTag="&quot;6ff-5418708f1ad80-gzip&quot;"
@@ -16,10 +16,10 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/templates/main/posts/modify/media.html"
     path="/templates/main/posts/modify/media.html" postType="2"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/45d70e2a-3b16-46c4-9596-af0a783b75e5.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/1c43ea8d-0c9b-44ce-8d9e-40fe56895dde.zip"
     recordedResponseCode="200" recordedResponseTime="32"
     responseSize="1791" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="746e2467-2e71-47df-934d-e0edf02b5d88" useKeepAlive="false">
+    uid="0a3842d0-b61e-4fa8-b288-8dc5cb505ad9" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_19da6cc6-05c2-4e7f-9459-ebcadd4a2e59.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_746e2467-2e71-47df-934d-e0edf02b5d88.txt</requestContentFileDescription>
     <header name="Accept" value="application/json, text/plain, */*"/>

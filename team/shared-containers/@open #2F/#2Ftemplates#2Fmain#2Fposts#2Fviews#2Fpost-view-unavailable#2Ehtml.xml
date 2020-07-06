@@ -1,33 +1,27 @@
 <http-page executeResourcesDynamically="false"
     name="/templates/main/posts/views/post-view-unavailable.html"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/df6cc018-ebce-4d21-97da-7ad8144b8acc.zip"
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/02fdd59d-18ec-4379-8c04-0a48a14ff3e6.zip"
     slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="df6cc018-ebce-4d21-97da-7ad8144b8acc">
-    <embedded-action>545a4b90-d352-4046-812d-bfe93a23757c</embedded-action>
-    <embedded-action>82d14eee-aa52-424f-b380-e52c6f9223e1</embedded-action>
-    <embedded-action>2e5e9b95-ef33-4421-95a4-aedf1e4b1461</embedded-action>
-    <embedded-action>9fe68d4b-4d49-483d-b8c0-a8514ffd8494</embedded-action>
-    <embedded-action>6da5d484-5131-4e34-b97f-2a891d846e9a</embedded-action>
+    thinkTimeRangeStart="" uid="02fdd59d-18ec-4379-8c04-0a48a14ff3e6">
+    <embedded-action>9df5a7f0-6437-4a8e-a01c-18d7cc5aa5dc</embedded-action>
+    <embedded-action>f81c1f69-d8ed-4027-a636-a050cdf28ea1</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
-    eTag="&quot;dd-5418708f1ad80-gzip&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
-    lastModified="Thu, 17 Nov 2016 22:51:50 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET"
     name="/templates/main/posts/views/post-view-unavailable.html"
     path="/templates/main/posts/views/post-view-unavailable.html"
     postType="2"
-    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/df6cc018-ebce-4d21-97da-7ad8144b8acc.zip"
-    recordedResponseCode="200" recordedResponseTime="24"
-    responseSize="221" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="545a4b90-d352-4046-812d-bfe93a23757c" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_cust_b6d6a942-5b6e-47a8-b9d5-0bc47ffcfc6d.html</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_cust_545a4b90-d352-4046-812d-bfe93a23757c.txt</requestContentFileDescription>
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/02fdd59d-18ec-4379-8c04-0a48a14ff3e6.zip"
+    recordedResponseCode="200" responseSize="221" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="9df5a7f0-6437-4a8e-a01c-18d7cc5aa5dc" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_9df5a7f0-6437-4a8e-a01c-18d7cc5aa5dc.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9df5a7f0-6437-4a8e-a01c-18d7cc5aa5dc.txt</requestContentFileDescription>
     <header name="Accept" value="application/json, text/plain, */*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
     <header name="Accept-Language" value="en-US,en;q=0.9"/>
@@ -35,49 +29,16 @@
     <header name="Proxy-Connection" value="keep-alive"/>
     <header name="Referer" value="http://ushahidi/views/map"/>
     <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
-    <responseHeaders>HTTP/1.1 200 OK
-Date: Thu, 02 Jul 2020 17:11:04 GMT
-Server: Apache/2.4.25 (Debian)
-Last-Modified: Thu, 17 Nov 2016 22:51:50 GMT
-ETag: "dd-5418708f1ad80-gzip"
-Accept-Ranges: bytes
-Vary: Accept-Encoding
-Content-Encoding: gzip
-Content-Length: 169
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 06 Jul 2020 13:06:21 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:50 GMT&#xd;
+ETag: "dd-5418708f1ad80-gzip"&#xd;
+Accept-Ranges: bytes&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 169&#xd;
 Content-Type: text/html</responseHeaders>
-    <record-html-infos extractorRegExp="false" htmlType="0"/>
-</http-action>
-<http-action actionType="1" contentType="application/json"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
-    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
-    method="GET" name="/platform/api/v3/forms"
-    path="/platform/api/v3/forms" postType="2"
-    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/df6cc018-ebce-4d21-97da-7ad8144b8acc.zip"
-    recordedResponseCode="200" recordedResponseTime="61"
-    responseSize="1639" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="82d14eee-aa52-424f-b380-e52c6f9223e1" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_cust_2d01fa67-5680-4ceb-8b57-15e82b4e5f3c</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_cust_82d14eee-aa52-424f-b380-e52c6f9223e1.txt</requestContentFileDescription>
-    <header name="Accept" value="application/json, text/plain, */*"/>
-    <header name="Accept-Encoding" value="gzip, deflate"/>
-    <header name="Accept-Language" value="en-US,en;q=0.9"/>
-    <header name="Authorization" value="Bearer ${fp_oauth_bearer_access_token}"/>
-    <header name="Host" value="ushahidi"/>
-    <header name="Proxy-Connection" value="keep-alive"/>
-    <header name="Referer" value="http://ushahidi/views/map"/>
-    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
-    <responseHeaders>HTTP/1.1 200 OK
-Date: Thu, 02 Jul 2020 17:11:04 GMT
-Server: Apache/2.4.25 (Debian)
-X-Powered-By: PHP/7.0.31
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Headers: Authorization, Content-type
-Allow: POST, GET, PUT, DELETE, OPTIONS
-Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS
-Content-Length: 1639
-Content-Type: application/json</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="application/json"
@@ -87,12 +48,11 @@ Content-Type: application/json</responseHeaders>
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/platform/api/v3/posts/stats"
     path="/platform/api/v3/posts/stats" postType="2"
-    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/df6cc018-ebce-4d21-97da-7ad8144b8acc.zip"
-    recordedResponseCode="200" recordedResponseTime="64"
-    responseSize="501" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="2e5e9b95-ef33-4421-95a4-aedf1e4b1461" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_cust_5e9adf90-f873-4d4b-b0d6-0e7ce9d09de1</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_cust_2e5e9b95-ef33-4421-95a4-aedf1e4b1461.txt</requestContentFileDescription>
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/02fdd59d-18ec-4379-8c04-0a48a14ff3e6.zip"
+    recordedResponseCode="200" responseSize="501" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="f81c1f69-d8ed-4027-a636-a050cdf28ea1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f81c1f69-d8ed-4027-a636-a050cdf28ea1</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f81c1f69-d8ed-4027-a636-a050cdf28ea1.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="group_by"
         recordRawValue="form" separator="=" value="form" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="order"
@@ -109,81 +69,15 @@ Content-Type: application/json</responseHeaders>
     <header name="Proxy-Connection" value="keep-alive"/>
     <header name="Referer" value="http://ushahidi/views/map"/>
     <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
-    <responseHeaders>HTTP/1.1 200 OK
-Date: Thu, 02 Jul 2020 17:11:04 GMT
-Server: Apache/2.4.25 (Debian)
-X-Powered-By: PHP/7.0.31
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Headers: Authorization, Content-type
-Allow: POST, GET, PUT, DELETE, OPTIONS
-Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS
-Content-Length: 501
-Content-Type: application/json</responseHeaders>
-    <record-html-infos extractorRegExp="false" htmlType="0"/>
-</http-action>
-<http-action actionType="1" contentType="application/json"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
-    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
-    method="GET" name="/platform/api/v3/config/features"
-    path="/platform/api/v3/config/features" postType="2"
-    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/df6cc018-ebce-4d21-97da-7ad8144b8acc.zip"
-    recordedResponseCode="200" recordedResponseTime="59"
-    responseSize="730" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="9fe68d4b-4d49-483d-b8c0-a8514ffd8494" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_cust_dafd2097-acc3-43ed-aa86-b5b9468f5d0e</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_cust_9fe68d4b-4d49-483d-b8c0-a8514ffd8494.txt</requestContentFileDescription>
-    <header name="Accept" value="application/json, text/plain, */*"/>
-    <header name="Accept-Encoding" value="gzip, deflate"/>
-    <header name="Accept-Language" value="en-US,en;q=0.9"/>
-    <header name="Authorization" value="Bearer ${fp_oauth_bearer_access_token-2}"/>
-    <header name="Host" value="ushahidi"/>
-    <header name="Proxy-Connection" value="keep-alive"/>
-    <header name="Referer" value="http://ushahidi/views/map"/>
-    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
-    <responseHeaders>HTTP/1.1 200 OK
-Date: Thu, 02 Jul 2020 17:11:04 GMT
-Server: Apache/2.4.25 (Debian)
-X-Powered-By: PHP/7.0.31
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Headers: Authorization, Content-type
-Allow: GET, PUT, OPTIONS
-Access-Control-Allow-Methods: GET, PUT, OPTIONS
-Content-Length: 730
-Content-Type: application/json</responseHeaders>
-    <record-html-infos extractorRegExp="false" htmlType="0"/>
-</http-action>
-<http-action actionType="1" contentType="application/json"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
-    linkExtractorSeveralMatchOccurrence="1"
-    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
-    method="GET" name="/platform/api/v3/tags"
-    path="/platform/api/v3/tags" postType="2"
-    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/df6cc018-ebce-4d21-97da-7ad8144b8acc.zip"
-    recordedResponseCode="200" recordedResponseTime="61"
-    responseSize="355" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="6da5d484-5131-4e34-b97f-2a891d846e9a" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_cust_d267e0ac-8a32-48e1-aa20-d6753921c3cf</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_cust_6da5d484-5131-4e34-b97f-2a891d846e9a.txt</requestContentFileDescription>
-    <header name="Accept" value="application/json, text/plain, */*"/>
-    <header name="Accept-Encoding" value="gzip, deflate"/>
-    <header name="Accept-Language" value="en-US,en;q=0.9"/>
-    <header name="Authorization" value="Bearer ${fp_oauth_bearer_access_token-1}"/>
-    <header name="Host" value="ushahidi"/>
-    <header name="Proxy-Connection" value="keep-alive"/>
-    <header name="Referer" value="http://ushahidi/views/map"/>
-    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
-    <responseHeaders>HTTP/1.1 200 OK
-Date: Thu, 02 Jul 2020 17:11:04 GMT
-Server: Apache/2.4.25 (Debian)
-X-Powered-By: PHP/7.0.31
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Headers: Authorization, Content-type
-Allow: POST, GET, PUT, DELETE, OPTIONS
-Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS
-Content-Length: 355
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 06 Jul 2020 13:06:21 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Content-Length: 501&#xd;
 Content-Type: application/json</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>

@@ -1,15 +1,15 @@
 <http-page executeResourcesDynamically="false"
     name="/templates/main/posts/detail/post-value.html"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/d08725ca-3d8a-4a7e-b9a2-02762f70aa25.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/0b1b6106-669f-4c88-bfb4-d2ac3ce83d8d.zip"
     slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="d08725ca-3d8a-4a7e-b9a2-02762f70aa25">
-    <embedded-action>3ec8c8cf-ddd1-4ff9-b773-3e1b1524454b</embedded-action>
-    <embedded-action>65863592-2d23-4522-88ba-2072118c9e28</embedded-action>
-    <embedded-action>d8c8b849-36eb-4d5a-95cd-6c2cc6f0a028</embedded-action>
-    <embedded-action>493c7ede-92eb-418b-ba9e-219a26b73645</embedded-action>
-    <embedded-action>87c7f2f7-7336-4823-99a2-34b2750e563e</embedded-action>
+    thinkTimeRangeStart="" uid="0b1b6106-669f-4c88-bfb4-d2ac3ce83d8d">
+    <embedded-action>300f46e6-13ea-4772-a715-a3e3052dfe37</embedded-action>
+    <embedded-action>cfd8e356-b0ef-4f1e-a8d8-afd4b75d3c6c</embedded-action>
+    <embedded-action>a7d22e36-72c2-4ff2-980e-85d2c256e5f3</embedded-action>
+    <embedded-action>98595f33-c59d-4e7f-8746-545e5ed8ae18</embedded-action>
+    <embedded-action>0e808aaa-edf0-44f9-bcc0-af14a3452588</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
     eTag="&quot;27d-5418708f1ad80-gzip&quot;"
@@ -20,10 +20,10 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/templates/main/posts/detail/post-value.html"
     path="/templates/main/posts/detail/post-value.html" postType="2"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/d08725ca-3d8a-4a7e-b9a2-02762f70aa25.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/0b1b6106-669f-4c88-bfb4-d2ac3ce83d8d.zip"
     recordedResponseCode="200" recordedResponseTime="35"
     responseSize="637" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="3ec8c8cf-ddd1-4ff9-b773-3e1b1524454b" useKeepAlive="false">
+    uid="300f46e6-13ea-4772-a715-a3e3052dfe37" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_5f6106aa-fb17-49a2-bc6f-33d5a7e74f16.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_3ec8c8cf-ddd1-4ff9-b773-3e1b1524454b.txt</requestContentFileDescription>
     <header name="Accept" value="application/json, text/plain, */*"/>
@@ -55,10 +55,10 @@ Content-Type: text/html</responseHeaders>
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/img/marker-icon-2x.png"
     path="/img/marker-icon-2x.png" postType="2"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/d08725ca-3d8a-4a7e-b9a2-02762f70aa25.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/0b1b6106-669f-4c88-bfb4-d2ac3ce83d8d.zip"
     recordedResponseCode="200" recordedResponseTime="37"
     responseSize="4033" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="65863592-2d23-4522-88ba-2072118c9e28" useKeepAlive="false">
+    uid="cfd8e356-b0ef-4f1e-a8d8-afd4b75d3c6c" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_28ef23dc-b016-492e-a370-45215e8c33d4.png</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_65863592-2d23-4522-88ba-2072118c9e28.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,image/apng,image/*,*/*;q=0.8"/>
@@ -88,10 +88,10 @@ Content-Type: image/png</responseHeaders>
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/img/marker-shadow.png"
     path="/img/marker-shadow.png" postType="2"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/d08725ca-3d8a-4a7e-b9a2-02762f70aa25.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/0b1b6106-669f-4c88-bfb4-d2ac3ce83d8d.zip"
     recordedResponseCode="200" recordedResponseTime="29"
     responseSize="797" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="d8c8b849-36eb-4d5a-95cd-6c2cc6f0a028" useKeepAlive="false">
+    uid="a7d22e36-72c2-4ff2-980e-85d2c256e5f3" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_1de2f0d9-91ed-439f-88f7-db32835247e4.png</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_d8c8b849-36eb-4d5a-95cd-6c2cc6f0a028.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,image/apng,image/*,*/*;q=0.8"/>
@@ -119,10 +119,10 @@ Content-Type: image/png</responseHeaders>
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/platform/api/v3/roles"
     path="/platform/api/v3/roles" postType="2"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/d08725ca-3d8a-4a7e-b9a2-02762f70aa25.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/0b1b6106-669f-4c88-bfb4-d2ac3ce83d8d.zip"
     recordedResponseCode="200" recordedResponseTime="76"
     responseSize="1098" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="493c7ede-92eb-418b-ba9e-219a26b73645" useKeepAlive="false">
+    uid="98595f33-c59d-4e7f-8746-545e5ed8ae18" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_77b1cf53-0075-47e3-b7e8-65935fdd3aa8</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_493c7ede-92eb-418b-ba9e-219a26b73645.txt</requestContentFileDescription>
     <header name="Accept" value="application/json, text/plain, */*"/>
@@ -153,10 +153,10 @@ Content-Type: application/json</responseHeaders>
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/platform/api/v3/posts/stats"
     path="/platform/api/v3/posts/stats" postType="2"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/d08725ca-3d8a-4a7e-b9a2-02762f70aa25.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/0b1b6106-669f-4c88-bfb4-d2ac3ce83d8d.zip"
     recordedResponseCode="200" recordedResponseTime="68"
     responseSize="501" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="87c7f2f7-7336-4823-99a2-34b2750e563e" useKeepAlive="false">
+    uid="0e808aaa-edf0-44f9-bcc0-af14a3452588" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_5c03fd45-7661-452d-a6c8-a1279b002963</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_87c7f2f7-7336-4823-99a2-34b2750e563e.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="group_by"

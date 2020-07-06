@@ -1,2 +1,2 @@
 #!/bin/sh
-java -jar neotys-selenium-server-1.0-SNAPSHOT-all.jar -role hub
+java -jar neotys-selenium-server-0.1.0-all.jar -role hub

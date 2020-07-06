@@ -1,11 +1,11 @@
 <http-page executeResourcesDynamically="false"
     name="/templates/common/directives/file-upload.html"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/6d3981ee-2667-48a1-b1f0-cd987c2330bd.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/17bb1edd-55d3-4d69-8770-e076328e91a1.zip"
     slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="6d3981ee-2667-48a1-b1f0-cd987c2330bd">
-    <embedded-action>3f0ce797-c1a1-453b-a924-fad40d7cea87</embedded-action>
+    thinkTimeRangeStart="" uid="17bb1edd-55d3-4d69-8770-e076328e91a1">
+    <embedded-action>6fdbb263-65f1-4357-8e99-d2127c995c2f</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
     eTag="&quot;5d-541870727ea00-gzip&quot;"
@@ -16,10 +16,10 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/templates/common/directives/file-upload.html"
     path="/templates/common/directives/file-upload.html" postType="2"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/6d3981ee-2667-48a1-b1f0-cd987c2330bd.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/17bb1edd-55d3-4d69-8770-e076328e91a1.zip"
     recordedResponseCode="200" recordedResponseTime="32"
     responseSize="93" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="3f0ce797-c1a1-453b-a924-fad40d7cea87" useKeepAlive="false">
+    uid="6fdbb263-65f1-4357-8e99-d2127c995c2f" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_eda6c6d8-0cba-4a95-8ad5-c1d28154c218.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_3f0ce797-c1a1-453b-a924-fad40d7cea87.txt</requestContentFileDescription>
     <header name="Accept" value="application/json, text/plain, */*"/>

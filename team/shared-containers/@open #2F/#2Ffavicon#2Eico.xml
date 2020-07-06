@@ -1,26 +1,22 @@
 <http-page executeResourcesDynamically="false" name="/favicon.ico"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/672d095d-e475-46b8-9584-d28de3230186.zip"
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/f973ac40-5de4-4797-929b-bdcac6b093cb.zip"
     slaProfileEnabled="false" thinkTime="1"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="672d095d-e475-46b8-9584-d28de3230186">
-    <embedded-action>1c72b427-8a63-4868-abd5-97033d0c65ca</embedded-action>
-    <embedded-action>f3251aa3-63ee-4100-9ce2-21969aa6c099</embedded-action>
+    thinkTimeRangeStart="" uid="f973ac40-5de4-4797-929b-bdcac6b093cb">
+    <embedded-action>c707a55c-a0fa-42dd-a932-da99f3174659</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
-    eTag="&quot;1a82-54186f405d7c0-gzip&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
-    lastModified="Thu, 17 Nov 2016 22:45:59 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/favicon.ico" path="/favicon.ico" postType="2"
-    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/672d095d-e475-46b8-9584-d28de3230186.zip"
-    recordedResponseCode="200" recordedResponseTime="27"
-    responseSize="6786" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="1c72b427-8a63-4868-abd5-97033d0c65ca" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_cust_2fa3f1e2-b292-4631-b0d8-d910f350700f.html</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_cust_1c72b427-8a63-4868-abd5-97033d0c65ca.txt</requestContentFileDescription>
+    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/f973ac40-5de4-4797-929b-bdcac6b093cb.zip"
+    recordedResponseCode="200" responseSize="6786" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="c707a55c-a0fa-42dd-a932-da99f3174659" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c707a55c-a0fa-42dd-a932-da99f3174659.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c707a55c-a0fa-42dd-a932-da99f3174659.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,image/apng,image/*,*/*;q=0.8"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
     <header name="Accept-Language" value="en-US,en;q=0.9"/>
@@ -28,47 +24,15 @@
     <header name="Proxy-Connection" value="keep-alive"/>
     <header name="Referer" value="http://ushahidi/views/map"/>
     <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
-    <responseHeaders>HTTP/1.1 200 OK
-Date: Thu, 02 Jul 2020 17:11:03 GMT
-Server: Apache/2.4.25 (Debian)
-Last-Modified: Thu, 17 Nov 2016 22:45:59 GMT
-ETag: "1a82-54186f405d7c0-gzip"
-Accept-Ranges: bytes
-Vary: Accept-Encoding
-Content-Encoding: gzip
-Content-Length: 2027
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 06 Jul 2020 13:06:20 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:45:59 GMT&#xd;
+ETag: "1a82-54186f405d7c0-gzip"&#xd;
+Accept-Ranges: bytes&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 2027&#xd;
 Content-Type: text/html</responseHeaders>
-    <record-html-infos extractorRegExp="false" htmlType="0"/>
-</http-action>
-<http-action actionType="1" contentType=""
-    eTag="&quot;acf8-5418708f1ad80&quot;" extractorInjectPathPolicy="2"
-    extractorPathPolicy="1" followRedirects="false"
-    generatedByClient="false"
-    lastModified="Thu, 17 Nov 2016 22:51:50 GMT"
-    linkExtractorSeveralMatchOccurrence="1"
-    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
-    method="GET" name="/fonts/Lato/fonts/LatoLatin-Heavy.woff2"
-    path="/fonts/Lato/fonts/LatoLatin-Heavy.woff2" postType="2"
-    recordedArtifactZipFileName="team/shared-containers/@open #2F/%resources%/recorded-artifacts/672d095d-e475-46b8-9584-d28de3230186.zip"
-    recordedResponseCode="200" recordedResponseTime="44"
-    responseSize="44280" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="f3251aa3-63ee-4100-9ce2-21969aa6c099" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_cust_83d878da-d423-41bc-8edb-0eb626d87973</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_cust_f3251aa3-63ee-4100-9ce2-21969aa6c099.txt</requestContentFileDescription>
-    <header name="Accept" value="*/*"/>
-    <header name="Accept-Encoding" value="gzip, deflate"/>
-    <header name="Accept-Language" value="en-US,en;q=0.9"/>
-    <header name="Host" value="ushahidi"/>
-    <header name="Origin" value="http://ushahidi"/>
-    <header name="Proxy-Connection" value="keep-alive"/>
-    <header name="Referer" value="http://ushahidi/fonts/Lato/css/fonts.css"/>
-    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"/>
-    <responseHeaders>HTTP/1.1 200 OK
-Date: Thu, 02 Jul 2020 17:11:03 GMT
-Server: Apache/2.4.25 (Debian)
-Last-Modified: Thu, 17 Nov 2016 22:51:50 GMT
-ETag: "acf8-5418708f1ad80"
-Accept-Ranges: bytes
-Content-Length: 44280</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>

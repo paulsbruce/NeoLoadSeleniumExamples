@@ -1,11 +1,11 @@
 <http-page executeResourcesDynamically="false"
     name="/templates/main/posts/modify/post-datetime-value.html"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/64d99a28-fe65-4f38-8c73-aa7bf84a0491.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/d94e91d8-3071-4b9b-a795-24c6c8ca47a4.zip"
     slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="64d99a28-fe65-4f38-8c73-aa7bf84a0491">
-    <embedded-action>333a5a1d-92dc-431c-9c6b-6783ed5a756c</embedded-action>
+    thinkTimeRangeStart="" uid="d94e91d8-3071-4b9b-a795-24c6c8ca47a4">
+    <embedded-action>64d8bbbb-6c31-45cd-a5cd-4517ed226536</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
     eTag="&quot;2cc-5418708f1ad80-gzip&quot;"
@@ -18,10 +18,10 @@
     name="/templates/main/posts/modify/post-datetime-value.html"
     path="/templates/main/posts/modify/post-datetime-value.html"
     postType="2"
-    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/64d99a28-fe65-4f38-8c73-aa7bf84a0491.zip"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/d94e91d8-3071-4b9b-a795-24c6c8ca47a4.zip"
     recordedResponseCode="200" recordedResponseTime="27"
     responseSize="716" serverUid="ushahidi" slaProfileEnabled="false"
-    uid="333a5a1d-92dc-431c-9c6b-6783ed5a756c" useKeepAlive="false">
+    uid="64d8bbbb-6c31-45cd-a5cd-4517ed226536" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_cust_d2ee24f7-16e2-4065-af15-416a86569c6e.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_cust_333a5a1d-92dc-431c-9c6b-6783ed5a756c.txt</requestContentFileDescription>
     <header name="Accept" value="application/json, text/plain, */*"/>

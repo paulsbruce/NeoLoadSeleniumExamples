@@ -11,9 +11,9 @@
         slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
         <description>Elements repeated until the Virtual User stops.</description>
         <weighted-embedded-action uid="b023408f-57c9-4b32-9898-8e4dee276a4a"/>
-        <weighted-embedded-action uid="af8c2b0e-3ea0-4be6-8f9a-daa09c7c14e8"/>
-        <weighted-embedded-action uid="3174bf70-f036-47f2-851f-f5e17cdb58e5"/>
-        <weighted-embedded-action uid="a94f603b-2d28-4fd7-8414-0f6541ed9980"/>
+        <weighted-embedded-action uid="08231ec0-099b-4cc2-892a-8ee160c394b6"/>
+        <weighted-embedded-action uid="c1728f40-8c60-4719-84ca-ed3a29b7d604"/>
+        <weighted-embedded-action uid="861659f5-5638-43cc-87d6-68030ff8a0c9"/>
     </actions-container>
     <end-container element-number="1" execution-type="0" pacingEnd="0"
         pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
