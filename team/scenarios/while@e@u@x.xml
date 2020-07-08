@@ -174,7 +174,7 @@
             <monitor-curve-description color="107,0,105"
                 connectionName="mysql" dashed="false"
                 monitorName="Tables/ table locks immediate"
-                monitoredHostName="mysql-ushahidi" scale="0.01" selected="false"/>
+                monitoredHostName="mysql-ushahidi" scale="0.001" selected="false"/>
             <monitor-curve-description color="11,117,117"
                 connectionName="mysql" dashed="false"
                 monitorName="Tables/ table locks waited"
@@ -243,23 +243,11 @@
             domainMarkerVisible="true" granularityLevel="0"
             historyState="XMIN" includeInReport="false"
             rangeMarkerVisible="true"
-            title="Selenium/Ushahidi App should create new post/Open //W3C/browser/domContentLoad" typeName="CLASSIC">
+            title="Selenium/Ushahidi App should create new post/Geosearch/W3C/paint/first-contentful-paint" typeName="CLASSIC">
             <third-party-data-curve-description color="178,140,0"
                 dashed="false"
-                path="Selenium/Ushahidi App should create new post/Open //W3C/browser/domContentLoad"
-                scale="0.01" selected="false" unit="ms"/>
-            <third-party-data-curve-description color="20,106,203"
-                dashed="false"
-                path="Selenium/Ushahidi App should create new post/Open //Timer"
-                scale="0.01" selected="false" unit="ms"/>
-            <third-party-data-curve-description color="88,183,55"
-                dashed="false"
-                path="Selenium/Ushahidi App should create new post/Geosearch/Timer"
-                scale="0.01" selected="false" unit="ms"/>
-            <third-party-data-curve-description color="200,0,0"
-                dashed="false"
-                path="Selenium/Ushahidi App should create new post/Open //W3C/browser/onLoad"
-                scale="0.01" selected="true" unit="ms"/>
+                path="Selenium/Ushahidi App should create new post/Geosearch/W3C/paint/first-contentful-paint"
+                scale="1.0" selected="true" unit="ms"/>
         </chart-description>
     </charts-model-description>
     <!--****** END DASHBOARDS  ******-->

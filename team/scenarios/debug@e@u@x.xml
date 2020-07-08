@@ -77,11 +77,11 @@
             <monitor-curve-description color="20,210,210"
                 connectionName="mysql" dashed="false"
                 monitorName="IO Requests/ bytes received"
-                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+                monitoredHostName="mysql-ushahidi" scale="0.1" selected="false"/>
             <monitor-curve-description color="223,143,143"
                 connectionName="mysql" dashed="false"
                 monitorName="IO Requests/ bytes sent"
-                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+                monitoredHostName="mysql-ushahidi" scale="0.1" selected="false"/>
             <monitor-curve-description color="236,153,22"
                 connectionName="mysql" dashed="false"
                 monitorName="IO Requests/ open files"
@@ -205,7 +205,7 @@
             <monitor-curve-description color="242,139,131"
                 connectionName="mysql" dashed="false"
                 monitorName="Misc./ sort rows"
-                monitoredHostName="mysql-ushahidi" scale="0.1" selected="false"/>
+                monitoredHostName="mysql-ushahidi" scale="0.01" selected="false"/>
             <monitor-curve-description color="48,76,254"
                 connectionName="mysql" dashed="false"
                 monitorName="Misc./ sort scan"
@@ -220,53 +220,14 @@
             domainMarkerVisible="true" granularityLevel="0"
             historyState="XMIN" includeInReport="false"
             rangeMarkerVisible="true"
-            title="Selenium/Selenium Grid Console should have proper configuration/Click View Verbose/W3C/paint/first-paint" typeName="CLASSIC">
+            title="Selenium/Ushahidi App should create new post/Open //W3C/paint/first-paint" typeName="CLASSIC">
             <third-party-data-curve-description color="178,140,0"
                 dashed="false"
-                path="Selenium/Selenium Grid Console should have proper configuration/Click View Verbose/W3C/paint/first-paint"
+                path="Selenium/Ushahidi App should create new post/Open //W3C/paint/first-paint"
                 scale="1.0" selected="true" unit="ms"/>
         </chart-description>
-        <chart-description autoRange="true"
-            chart-description-type="chart-description-type"
-            domainMarkerVisible="true" granularityLevel="0"
-            historyState="XMIN" includeInReport="false"
-            rangeMarkerVisible="true"
-            title="Selenium/Selenium Grid Console should have proper configuration/Click console/W3C/paint/first-paint" typeName="CLASSIC">
-            <third-party-data-curve-description color="178,140,0"
-                dashed="false"
-                path="Selenium/Selenium Grid Console should have proper configuration/Click console/W3C/paint/first-paint"
-                scale="1.0" selected="true" unit="ms"/>
-        </chart-description>
-        <chart-description autoRange="true"
-            chart-description-type="chart-description-type"
-            domainMarkerVisible="true" granularityLevel="0"
-            historyState="XMIN" includeInReport="false"
-            rangeMarkerVisible="true"
-            title="Selenium/Selenium Grid Console should have proper configuration/Click View Verbose/W3C/browser/domContentLoad" typeName="CLASSIC">
-            <third-party-data-curve-description color="178,140,0"
-                dashed="false"
-                path="Selenium/Selenium Grid Console should have proper configuration/Click View Verbose/W3C/browser/domContentLoad"
-                scale="1.0" selected="false" unit="ms"/>
-            <third-party-data-curve-description color="20,106,203"
-                dashed="false"
-                path="Selenium/Selenium Grid Console should have proper configuration/Click console/W3C/browser/domContentLoad"
-                scale="1.0" selected="true" unit="ms"/>
-        </chart-description>
-        <chart-description autoRange="true"
-            chart-description-type="chart-description-type"
-            domainMarkerVisible="true" granularityLevel="0"
-            historyState="XMIN" includeInReport="false"
-            rangeMarkerVisible="true"
-            title="Selenium/Selenium Grid Console should have proper configuration/Click console/W3C/net/requestToResponseEnd" typeName="CLASSIC">
-            <third-party-data-curve-description color="178,140,0"
-                dashed="false"
-                path="Selenium/Selenium Grid Console should have proper configuration/Click console/W3C/net/requestToResponseEnd"
-                scale="1.0" selected="false" unit="ms"/>
-            <third-party-data-curve-description color="20,106,203"
-                dashed="false"
-                path="Selenium/Selenium Grid Console should have proper configuration/Click View Verbose/W3C/net/requestToResponseEnd"
-                scale="1.0" selected="true" unit="ms"/>
-        </chart-description>
+        <empty-chart-description/>
+        <empty-chart-description/>
     </charts-model-description>
     <!--****** END DASHBOARDS  ******-->
     <!--****** START DATA FILTERS  ******-->
