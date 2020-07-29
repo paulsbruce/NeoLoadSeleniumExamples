@@ -8,8 +8,10 @@
     <embedded-action>24124f01-565e-419d-bd0b-258000833a63</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
+    eTag="&quot;2909-5418708f1ad80-gzip:dtagent10195200709173710Etwr&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:49 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET"

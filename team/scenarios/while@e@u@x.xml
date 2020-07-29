@@ -23,7 +23,7 @@
         <volume-policy-entry>
             <constant-volume-policy iterationNumber="1" userNumber="1"/>
         </volume-policy-entry>
-        <start-stop-policy-entry start-delay="10000" start-type="1"
+        <start-stop-policy-entry start-delay="5000" start-type="1"
             stop-delay="60000" stop-type="1"/>
         <runtime-policy continueOnError="true" thinktimePolicy="0"
             thinktimeValue="5000" vuStartDelay="0" vuStartMode="0"/>
@@ -90,11 +90,11 @@
             <monitor-curve-description color="20,210,210"
                 connectionName="mysql" dashed="false"
                 monitorName="IO Requests/ bytes received"
-                monitoredHostName="mysql-ushahidi" scale="0.1" selected="false"/>
+                monitoredHostName="mysql-ushahidi" scale="0.01" selected="false"/>
             <monitor-curve-description color="223,143,143"
                 connectionName="mysql" dashed="false"
                 monitorName="IO Requests/ bytes sent"
-                monitoredHostName="mysql-ushahidi" scale="0.1" selected="false"/>
+                monitoredHostName="mysql-ushahidi" scale="0.01" selected="false"/>
             <monitor-curve-description color="236,153,22"
                 connectionName="mysql" dashed="false"
                 monitorName="IO Requests/ open files"
@@ -154,7 +154,7 @@
             <monitor-curve-description color="26,255,255"
                 connectionName="mysql" dashed="false"
                 monitorName="Query Cache/ not cached queries"
-                monitoredHostName="mysql-ushahidi" scale="0.001" selected="false"/>
+                monitoredHostName="mysql-ushahidi" scale="1.0E-5" selected="false"/>
             <monitor-curve-description color="192,192,192"
                 connectionName="mysql" dashed="false"
                 monitorName="Query Cache/ cached queries"
@@ -243,11 +243,43 @@
             domainMarkerVisible="true" granularityLevel="0"
             historyState="XMIN" includeInReport="false"
             rangeMarkerVisible="true"
-            title="Selenium/Ushahidi App should create new post/Geosearch/W3C/paint/first-contentful-paint" typeName="CLASSIC">
+            title="Selenium/Ushahidi App should create new post/Open //W3C/browser/domContentLoad" typeName="CLASSIC">
             <third-party-data-curve-description color="178,140,0"
                 dashed="false"
-                path="Selenium/Ushahidi App should create new post/Geosearch/W3C/paint/first-contentful-paint"
-                scale="1.0" selected="true" unit="ms"/>
+                path="Selenium/Ushahidi App should create new post/Open //W3C/browser/domContentLoad"
+                scale="0.01" selected="false" unit="ms"/>
+            <third-party-data-curve-description color="20,106,203"
+                dashed="false"
+                path="Selenium/Ushahidi App should create new post/Open //W3C/browser/navigateToLoadEnd"
+                scale="0.01" selected="false" unit="ms"/>
+            <third-party-data-curve-description color="88,183,55"
+                dashed="false"
+                path="Selenium/Ushahidi App should create new post/Open //W3C/browser/documentComplete"
+                scale="0.01" selected="false" unit="ms"/>
+            <third-party-data-curve-description color="200,0,0"
+                dashed="false"
+                path="Selenium/Ushahidi App should create new post/Open //W3C/paint/first-contentful-paint"
+                scale="0.01" selected="true" unit="ms"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="Open / - Average duration" typeName="CLASSIC">
+            <action-curve-description
+                actionUid="b023408f-57c9-4b32-9898-8e4dee276a4a"
+                color="153,153,0" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="Ushahidi App should create new post_" zoneName=""/>
+            <third-party-data-curve-description color="178,140,0"
+                dashed="false"
+                path="Selenium/Ushahidi App should create new post/Open //Timer"
+                scale="0.01" selected="false" unit="ms"/>
+            <third-party-data-curve-description color="20,106,203"
+                dashed="false"
+                path="Selenium/Ushahidi App should create new post/Open //W3C/paint/first-contentful-paint"
+                scale="0.01" selected="true" unit="ms"/>
         </chart-description>
     </charts-model-description>
     <!--****** END DASHBOARDS  ******-->

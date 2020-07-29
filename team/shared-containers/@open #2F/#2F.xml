@@ -12,8 +12,10 @@
     <embedded-action>72c222d4-d3bc-40e5-817d-ad388ae75add</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
+    eTag="&quot;1a82-54186f405d7c0-gzip:dtagent10195200709173710Etwr&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:45:58 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/" path="/" postType="2"
@@ -42,8 +44,10 @@ Content-Type: text/html</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="text/css"
+    eTag="&quot;d73-5418708f1ad80-gzip&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:50 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/fonts/Lato/css/fonts.css"
@@ -73,8 +77,10 @@ Content-Type: text/css</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="text/css"
+    eTag="&quot;55a9-5418707096580-gzip&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:18 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/css/vendor.css" path="/css/vendor.css"
@@ -104,8 +110,10 @@ Content-Type: text/css</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="text/css"
+    eTag="&quot;80e76-5418706fa2340-gzip&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:17 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/css/style.css" path="/css/style.css"
@@ -136,8 +144,10 @@ Content-Type: text/css</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;8f-541876ad09c00-gzip&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 23:19:12 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/config.js" path="/config.js" postType="2"
@@ -169,8 +179,10 @@ Content-Type: application/javascript</responseHeaders>
         extractorRegExp="false" htmlType="1"/>
 </http-action>
 <http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;16ee8d-5725cc426fb40-gzip&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 01 Aug 2018 10:00:37 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/js/bundle.js" path="/js/bundle.js" postType="2"

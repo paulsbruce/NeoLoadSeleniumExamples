@@ -10,8 +10,10 @@
     <embedded-action>c18d236b-b758-4920-a710-7505949b9713</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
+    eTag="&quot;6f5-5418707096580-gzip:dtagent10195200709173710Etwr&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:17 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/templates/common/configs/uib-pagination.html"

@@ -7,8 +7,10 @@
     <embedded-action>c707a55c-a0fa-42dd-a932-da99f3174659</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
+    eTag="&quot;1a82-54186f405d7c0-gzip:dtagent10195200709173710Etwr&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:45:58 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/favicon.ico" path="/favicon.ico" postType="2"

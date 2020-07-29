@@ -13,8 +13,10 @@
     <embedded-action>78ceeeb8-364e-4cfd-b607-d96e5bf19c5c</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
+    eTag="&quot;43d-5418707372c40-gzip:dtagent10195200709173710Etwr&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:20 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET"
@@ -128,8 +130,10 @@ Content-Type: application/json</responseHeaders>
     <textPostContent><![CDATA[{"grant_type":"client_credentials","client_id":"ushahidiui","client_secret":"${fp_oauth_client_secret}","scope":"posts media forms api tags savedsearches sets users stats layers config messages notifications contacts roles permissions csv"}]]></textPostContent>
 </http-action>
 <http-action actionType="1" contentType="image/svg+xml"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
+    eTag="&quot;e26a-5418706fa2340&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:17 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/img/iconic-sprite.svg"

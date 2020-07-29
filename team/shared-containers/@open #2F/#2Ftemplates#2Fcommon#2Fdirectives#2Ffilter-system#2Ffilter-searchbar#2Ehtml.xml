@@ -9,8 +9,10 @@
     <embedded-action>1146a474-3f93-4a78-8f29-1bc9b2d67830</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
+    eTag="&quot;55b-5418708f1ad80-gzip:dtagent10195200709173710Etwr&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:49 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET"
@@ -42,8 +44,10 @@ Content-Type: text/html</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
 <http-action actionType="1" contentType="image/png"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
+    eTag="&quot;8b-541870900efc0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:51 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/img/icons/png/plus-2x.png"

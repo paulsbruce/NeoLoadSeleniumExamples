@@ -97,11 +97,11 @@
             <monitor-curve-description color="15,79,152"
                 connectionName="mysql" dashed="false"
                 monitorName="Read Rates/ handler read random"
-                monitoredHostName="mysql-ushahidi" scale="0.1" selected="false"/>
+                monitoredHostName="mysql-ushahidi" scale="0.01" selected="false"/>
             <monitor-curve-description color="66,137,41"
                 connectionName="mysql" dashed="false"
                 monitorName="Read Rates/ handler read random next"
-                monitoredHostName="mysql-ushahidi" scale="0.1" selected="false"/>
+                monitoredHostName="mysql-ushahidi" scale="0.01" selected="false"/>
             <monitor-curve-description color="183,179,0"
                 connectionName="mysql" dashed="false"
                 monitorName="Key Rates/ key reads (disk)"
@@ -161,7 +161,7 @@
             <monitor-curve-description color="107,0,105"
                 connectionName="mysql" dashed="false"
                 monitorName="Tables/ table locks immediate"
-                monitoredHostName="mysql-ushahidi" scale="0.01" selected="false"/>
+                monitoredHostName="mysql-ushahidi" scale="0.001" selected="false"/>
             <monitor-curve-description color="11,117,117"
                 connectionName="mysql" dashed="false"
                 monitorName="Tables/ table locks waited"
@@ -214,17 +214,6 @@
                 connectionName="mysql" dashed="false"
                 monitorName="Misc./ not flushed delayed rows"
                 monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
-        </chart-description>
-        <chart-description autoRange="true"
-            chart-description-type="chart-description-type"
-            domainMarkerVisible="true" granularityLevel="0"
-            historyState="XMIN" includeInReport="false"
-            rangeMarkerVisible="true"
-            title="Selenium/Ushahidi App should create new post/Open //W3C/paint/first-paint" typeName="CLASSIC">
-            <third-party-data-curve-description color="178,140,0"
-                dashed="false"
-                path="Selenium/Ushahidi App should create new post/Open //W3C/paint/first-paint"
-                scale="1.0" selected="true" unit="ms"/>
         </chart-description>
         <empty-chart-description/>
         <empty-chart-description/>

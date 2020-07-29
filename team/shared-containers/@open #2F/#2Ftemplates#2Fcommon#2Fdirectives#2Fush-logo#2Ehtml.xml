@@ -17,8 +17,10 @@
     <embedded-action>073fb7c4-3c4c-4593-adac-d02c6064b958</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
+    eTag="&quot;fe-5418707372c40-gzip:dtagent10195200709173710Etwr&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:20 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/templates/common/directives/ush-logo.html"
@@ -47,9 +49,12 @@ Content-Length: 196&#xd;
 Content-Type: text/html</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
-<http-action actionType="1" extractorInjectPathPolicy="2"
-    extractorPathPolicy="1" followRedirects="false"
-    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+<http-action actionType="1"
+    eTag="&quot;acf8-5418708f1ad80:dtagent10195200709173710Etwr&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:49 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/fonts/Lato/fonts/LatoLatin-Heavy.woff2"
     path="/fonts/Lato/fonts/LatoLatin-Heavy.woff2" postType="2"
@@ -229,9 +234,12 @@ Content-Length: 565&#xd;
 Content-Type: application/json</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
-<http-action actionType="1" extractorInjectPathPolicy="2"
-    extractorPathPolicy="1" followRedirects="false"
-    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+<http-action actionType="1"
+    eTag="&quot;ab90-5418708f1ad80:dtagent10195200709173710Etwr&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:49 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/fonts/Lato/fonts/LatoLatin-Medium.woff2"
     path="/fonts/Lato/fonts/LatoLatin-Medium.woff2" postType="2"

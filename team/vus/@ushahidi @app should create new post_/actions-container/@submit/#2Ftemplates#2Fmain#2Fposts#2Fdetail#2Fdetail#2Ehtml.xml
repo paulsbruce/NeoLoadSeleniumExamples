@@ -8,10 +8,10 @@
     <embedded-action>dc35a7f7-5618-48ac-a238-1320a278a1db</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
-    eTag="&quot;17a0-5418708f1ad80-gzip&quot;"
+    eTag="&quot;17a0-5418708f1ad80-gzip:dtagent10195200709173710Etwr&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
-    lastModified="Thu, 17 Nov 2016 22:51:50 GMT"
+    lastModified="Thu, 17 Nov 2016 22:51:49 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/templates/main/posts/detail/detail.html"

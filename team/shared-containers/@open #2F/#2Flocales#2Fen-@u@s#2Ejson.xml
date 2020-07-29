@@ -7,8 +7,10 @@
     <embedded-action>e98cba5a-0d5d-499a-bf97-7b200ea5f5f5</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html"
+    eTag="&quot;1a82-54186f405d7c0-gzip:dtagent10195200709173710Etwr&quot;"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:45:58 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/locales/en-US.json" path="/locales/en-US.json"
