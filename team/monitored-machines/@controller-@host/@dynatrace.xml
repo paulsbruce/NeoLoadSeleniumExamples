@@ -1,0 +1,526 @@
+<connection-dynatrace interval="30000" name="Dynatrace"
+    server-address="" server-port="0" uid="db24481e-3108-457b-ad76-a3459374fef9">
+    <monitor-category name="builtin" short-display-name="builtin">
+        <monitor-category name="containers" short-display-name="containers">
+            <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                dynatrace-id="builtin:containers.devicemapper_data_space_available"
+                entity-id="" entity-types="HOST" format="NUMBER"
+                name="builtin:containers.devicemapper_data_space_available"
+                sampling="0"
+                short-display-name="Devicemapper data space available" unit="B"/>
+            <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                dynatrace-id="builtin:containers.devicemapper_data_space_used"
+                entity-id="" entity-types="HOST" format="NUMBER"
+                name="builtin:containers.devicemapper_data_space_used"
+                sampling="0"
+                short-display-name="Devicemapper data space used" unit="B"/>
+            <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                dynatrace-id="builtin:containers.devicemapper_metadata_space_available"
+                entity-id="" entity-types="HOST" format="NUMBER"
+                name="builtin:containers.devicemapper_metadata_space_available"
+                sampling="0"
+                short-display-name="Devicemapper meta-data space available" unit="B"/>
+            <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                dynatrace-id="builtin:containers.devicemapper_metadata_space_used"
+                entity-id="" entity-types="HOST" format="NUMBER"
+                name="builtin:containers.devicemapper_metadata_space_used"
+                sampling="0"
+                short-display-name="Devicemapper meta-data space used" unit="B"/>
+        </monitor-category>
+        <monitor-category name="host" short-display-name="host">
+            <monitor-category name="cpu" short-display-name="cpu">
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:host.cpu.idle" entity-id=""
+                    entity-types="HOST" format="NUMBER"
+                    name="builtin:host.cpu.idle" sampling="0"
+                    short-display-name="CPU idle" unit="%"/>
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:host.cpu.iowait" entity-id=""
+                    entity-types="HOST" format="NUMBER"
+                    name="builtin:host.cpu.iowait" sampling="0"
+                    short-display-name="CPU I/O wait" unit="%"/>
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:host.cpu.steal" entity-id=""
+                    entity-types="HOST" format="NUMBER"
+                    name="builtin:host.cpu.steal" sampling="0"
+                    short-display-name="CPU steal" unit="%"/>
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:host.cpu.system" entity-id=""
+                    entity-types="HOST" format="NUMBER"
+                    name="builtin:host.cpu.system" sampling="0"
+                    short-display-name="CPU system" unit="%"/>
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:host.cpu.user" entity-id=""
+                    entity-types="HOST" format="NUMBER"
+                    name="builtin:host.cpu.user" sampling="0"
+                    short-display-name="CPU user" unit="%"/>
+            </monitor-category>
+            <monitor-category name="disk" short-display-name="disk">
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:host.disk.avail" entity-id=""
+                    entity-types="HOST" format="NUMBER"
+                    name="builtin:host.disk.avail" sampling="0"
+                    short-display-name="Disk available" unit="B"/>
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:host.disk.bytesRead"
+                    entity-id="" entity-types="HOST" format="NUMBER"
+                    name="builtin:host.disk.bytesRead" sampling="0"
+                    short-display-name="Disk read bytes per second" unit="B/s"/>
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:host.disk.bytesWritten"
+                    entity-id="" entity-types="HOST" format="NUMBER"
+                    name="builtin:host.disk.bytesWritten" sampling="0"
+                    short-display-name="Disk write bytes per second" unit="B/s"/>
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:host.disk.free" entity-id=""
+                    entity-types="HOST" format="NUMBER"
+                    name="builtin:host.disk.free" sampling="0"
+                    short-display-name="Disk available %" unit="%"/>
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:host.disk.readOps"
+                    entity-id="" entity-types="HOST" format="NUMBER"
+                    name="builtin:host.disk.readOps" sampling="0"
+                    short-display-name="Disk read operations per second" unit="/s"/>
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:host.disk.usedPct"
+                    entity-id="" entity-types="HOST" format="NUMBER"
+                    name="builtin:host.disk.usedPct" sampling="0"
+                    short-display-name="Disk used %" unit="%"/>
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:host.disk.writeOps"
+                    entity-id="" entity-types="HOST" format="NUMBER"
+                    name="builtin:host.disk.writeOps" sampling="0"
+                    short-display-name="Disk write operations per second" unit="/s"/>
+            </monitor-category>
+            <monitor-category name="mem" short-display-name="mem">
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:host.mem.used" entity-id=""
+                    entity-types="HOST" format="NUMBER"
+                    name="builtin:host.mem.used" sampling="0"
+                    short-display-name="Memory used" unit="B"/>
+                <monitor-category name="avail" short-display-name="avail">
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:host.mem.avail.bytes"
+                        entity-id="" entity-types="HOST" format="NUMBER"
+                        name="builtin:host.mem.avail.bytes" sampling="0"
+                        short-display-name="Memory available" unit="B"/>
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:host.mem.avail.pct"
+                        entity-id="" entity-types="HOST" format="NUMBER"
+                        name="builtin:host.mem.avail.pct" sampling="0"
+                        short-display-name="Memory available %" unit="%"/>
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:host.mem.avail.pfps"
+                        entity-id="" entity-types="HOST" format="NUMBER"
+                        name="builtin:host.mem.avail.pfps" sampling="0"
+                        short-display-name="Page faults per second" unit="/s"/>
+                </monitor-category>
+            </monitor-category>
+            <monitor-category name="net" short-display-name="net">
+                <monitor-category name="nic" short-display-name="nic">
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:host.net.nic.bytesRx"
+                        entity-id="" entity-types="HOST" format="NUMBER"
+                        name="builtin:host.net.nic.bytesRx" sampling="0"
+                        short-display-name="Network interface bytes received on host" unit="B/s"/>
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:host.net.nic.bytesTx"
+                        entity-id="" entity-types="HOST" format="NUMBER"
+                        name="builtin:host.net.nic.bytesTx" sampling="0"
+                        short-display-name="Network interface bytes sent on host" unit="B/s"/>
+                    <monitor-category name="packets" short-display-name="packets">
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:host.net.nic.packets.rx"
+                            entity-id="" entity-types="HOST"
+                            format="NUMBER"
+                            name="builtin:host.net.nic.packets.rx"
+                            sampling="0"
+                            short-display-name="Network interface packets received on host" unit="/s"/>
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:host.net.nic.packets.tx"
+                            entity-id="" entity-types="HOST"
+                            format="NUMBER"
+                            name="builtin:host.net.nic.packets.tx"
+                            sampling="0"
+                            short-display-name="Network interface packets sent on host" unit="/s"/>
+                    </monitor-category>
+                </monitor-category>
+            </monitor-category>
+            <monitor-category name="osService" short-display-name="osService">
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:host.osService.availability"
+                    entity-id="" entity-types="HOST" format="NUMBER"
+                    name="builtin:host.osService.availability"
+                    sampling="0"
+                    short-display-name="OS Service availability" unit=""/>
+            </monitor-category>
+        </monitor-category>
+        <monitor-category name="service" short-display-name="service">
+            <monitor-category name="errors" short-display-name="errors">
+                <monitor-category name="client" short-display-name="client">
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:service.errors.client.rate"
+                        entity-id="" entity-types="SERVICE"
+                        format="NUMBER"
+                        name="builtin:service.errors.client.rate"
+                        sampling="0"
+                        short-display-name="Failure rate (client side  errors)" unit="%"/>
+                </monitor-category>
+                <monitor-category name="fivexx" short-display-name="fivexx">
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:service.errors.fivexx.count"
+                        entity-id="" entity-types="SERVICE"
+                        format="NUMBER"
+                        name="builtin:service.errors.fivexx.count"
+                        sampling="0"
+                        short-display-name="Number of HTTP 5xx errors" unit=""/>
+                </monitor-category>
+                <monitor-category name="fourxx" short-display-name="fourxx">
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:service.errors.fourxx.count"
+                        entity-id="" entity-types="SERVICE"
+                        format="NUMBER"
+                        name="builtin:service.errors.fourxx.count"
+                        sampling="0"
+                        short-display-name="Number of HTTP 4xx errors" unit=""/>
+                </monitor-category>
+                <monitor-category name="server" short-display-name="server">
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:service.errors.server.rate"
+                        entity-id="" entity-types="SERVICE"
+                        format="NUMBER"
+                        name="builtin:service.errors.server.rate"
+                        sampling="0"
+                        short-display-name="Failure rate (server side  errors)" unit="%"/>
+                </monitor-category>
+                <monitor-category name="total" short-display-name="total">
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:service.errors.total.rate"
+                        entity-id="" entity-types="SERVICE"
+                        format="NUMBER"
+                        name="builtin:service.errors.total.rate"
+                        sampling="0"
+                        short-display-name="Failure rate (any  errors)" unit="%"/>
+                </monitor-category>
+            </monitor-category>
+            <monitor-category name="response" short-display-name="response">
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:service.response.time"
+                    entity-id="" entity-types="SERVICE" format="NUMBER"
+                    name="builtin:service.response.time" sampling="0"
+                    short-display-name="Response time" unit="µs"/>
+            </monitor-category>
+        </monitor-category>
+        <monitor-category name="tech" short-display-name="tech">
+            <monitor-category name="generic" short-display-name="generic">
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:tech.generic.count"
+                    entity-id="" entity-types="PROCESS_GROUP"
+                    format="NUMBER" name="builtin:tech.generic.count"
+                    sampling="0"
+                    short-display-name="Process count per process group" unit=""/>
+                <monitor-category name="cpu" short-display-name="cpu">
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:tech.generic.cpu.groupSuspensionTime"
+                        entity-id="" entity-types="PROCESS_GROUP"
+                        format="NUMBER"
+                        name="builtin:tech.generic.cpu.groupSuspensionTime"
+                        sampling="0"
+                        short-display-name="Process group total CPU time during GC suspensions" unit="µs"/>
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:tech.generic.cpu.groupTotalTime"
+                        entity-id="" entity-types="PROCESS_GROUP"
+                        format="NUMBER"
+                        name="builtin:tech.generic.cpu.groupTotalTime"
+                        sampling="0"
+                        short-display-name="Process group total CPU time" unit="µs"/>
+                </monitor-category>
+                <monitor-category name="network" short-display-name="network">
+                    <monitor-category name="packets" short-display-name="packets">
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.generic.network.packets.baseReRx"
+                            entity-id="" entity-types="HOST"
+                            format="NUMBER"
+                            name="builtin:tech.generic.network.packets.baseReRx"
+                            sampling="0"
+                            short-display-name="Retransmission base received per second on host" unit="/s"/>
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.generic.network.packets.baseReTx"
+                            entity-id="" entity-types="HOST"
+                            format="NUMBER"
+                            name="builtin:tech.generic.network.packets.baseReTx"
+                            sampling="0"
+                            short-display-name="Retransmission base sent per second on host" unit="/s"/>
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.generic.network.packets.reRx"
+                            entity-id="" entity-types="HOST"
+                            format="NUMBER"
+                            name="builtin:tech.generic.network.packets.reRx"
+                            sampling="0"
+                            short-display-name="Retransmitted packets received per second on host" unit="/s"/>
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.generic.network.packets.reTx"
+                            entity-id="" entity-types="HOST"
+                            format="NUMBER"
+                            name="builtin:tech.generic.network.packets.reTx"
+                            sampling="0"
+                            short-display-name="Retransmitted packets sent per second on host" unit="/s"/>
+                    </monitor-category>
+                    <monitor-category name="sessions" short-display-name="sessions">
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.generic.network.sessions.new"
+                            entity-id="" entity-types="HOST"
+                            format="NUMBER"
+                            name="builtin:tech.generic.network.sessions.new"
+                            sampling="0"
+                            short-display-name="New session received per second on host" unit="/s"/>
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.generic.network.sessions.reset"
+                            entity-id="" entity-types="HOST"
+                            format="NUMBER"
+                            name="builtin:tech.generic.network.sessions.reset"
+                            sampling="0"
+                            short-display-name="Session reset received per second on host" unit="/s"/>
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.generic.network.sessions.timeout"
+                            entity-id="" entity-types="HOST"
+                            format="NUMBER"
+                            name="builtin:tech.generic.network.sessions.timeout"
+                            sampling="0"
+                            short-display-name="Session timeout received per second on host" unit="/s"/>
+                    </monitor-category>
+                </monitor-category>
+            </monitor-category>
+            <monitor-category name="jvm" short-display-name="jvm">
+                <monitor-category name="spark" short-display-name="spark">
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:tech.jvm.spark.aliveWorkers"
+                        entity-id="" entity-types="PROCESS_GROUP"
+                        format="NUMBER"
+                        name="builtin:tech.jvm.spark.aliveWorkers"
+                        sampling="0" short-display-name="Alive workers" unit=""/>
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:tech.jvm.spark.apps"
+                        entity-id="" entity-types="PROCESS_GROUP"
+                        format="NUMBER"
+                        name="builtin:tech.jvm.spark.apps" sampling="0"
+                        short-display-name="Master apps" unit=""/>
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:tech.jvm.spark.waitingApps"
+                        entity-id="" entity-types="PROCESS_GROUP"
+                        format="NUMBER"
+                        name="builtin:tech.jvm.spark.waitingApps"
+                        sampling="0" short-display-name="Waiting apps" unit=""/>
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:tech.jvm.spark.workers"
+                        entity-id="" entity-types="PROCESS_GROUP"
+                        format="NUMBER"
+                        name="builtin:tech.jvm.spark.workers"
+                        sampling="0" short-display-name="Master workers" unit=""/>
+                    <monitor-category name="aliveWorkers" short-display-name="aliveWorkers">
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.jvm.spark.aliveWorkers.gauge"
+                            entity-id="" entity-types="PROCESS_GROUP"
+                            format="NUMBER"
+                            name="builtin:tech.jvm.spark.aliveWorkers.gauge"
+                            sampling="0"
+                            short-display-name="Alive workers" unit=""/>
+                    </monitor-category>
+                    <monitor-category name="apps" short-display-name="apps">
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.jvm.spark.apps.gauge"
+                            entity-id="" entity-types="PROCESS_GROUP"
+                            format="NUMBER"
+                            name="builtin:tech.jvm.spark.apps.gauge"
+                            sampling="0"
+                            short-display-name="Master apps" unit=""/>
+                    </monitor-category>
+                    <monitor-category name="driver" short-display-name="driver">
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.jvm.spark.driver.Count"
+                            entity-id="" entity-types="PROCESS_GROUP"
+                            format="NUMBER"
+                            name="builtin:tech.jvm.spark.driver.Count"
+                            sampling="0"
+                            short-display-name="Processing time - count" unit=""/>
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.jvm.spark.driver.Mean"
+                            entity-id="" entity-types="PROCESS_GROUP"
+                            format="NUMBER"
+                            name="builtin:tech.jvm.spark.driver.Mean"
+                            sampling="0"
+                            short-display-name="Processing time - mean" unit="ms"/>
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.jvm.spark.driver.OneMinuteRate"
+                            entity-id="" entity-types="PROCESS_GROUP"
+                            format="NUMBER"
+                            name="builtin:tech.jvm.spark.driver.OneMinuteRate"
+                            sampling="0"
+                            short-display-name="Processing time - one minute rate" unit="/s"/>
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.jvm.spark.driver.activeJobs"
+                            entity-id="" entity-types="PROCESS_GROUP"
+                            format="NUMBER"
+                            name="builtin:tech.jvm.spark.driver.activeJobs"
+                            sampling="0"
+                            short-display-name="Active jobs" unit=""/>
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.jvm.spark.driver.allJobs"
+                            entity-id="" entity-types="PROCESS_GROUP"
+                            format="NUMBER"
+                            name="builtin:tech.jvm.spark.driver.allJobs"
+                            sampling="0" short-display-name="Total jobs" unit=""/>
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.jvm.spark.driver.failedStages"
+                            entity-id="" entity-types="PROCESS_GROUP"
+                            format="NUMBER"
+                            name="builtin:tech.jvm.spark.driver.failedStages"
+                            sampling="0"
+                            short-display-name="Failed stages" unit=""/>
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.jvm.spark.driver.runningStages"
+                            entity-id="" entity-types="PROCESS_GROUP"
+                            format="NUMBER"
+                            name="builtin:tech.jvm.spark.driver.runningStages"
+                            sampling="0"
+                            short-display-name="Running stages" unit=""/>
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.jvm.spark.driver.waitingStages"
+                            entity-id="" entity-types="PROCESS_GROUP"
+                            format="NUMBER"
+                            name="builtin:tech.jvm.spark.driver.waitingStages"
+                            sampling="0"
+                            short-display-name="Waiting stages" unit=""/>
+                        <monitor-category name="Count" short-display-name="Count">
+                            <monitor-dynatrace callTime="ON_BENCH"
+                                computing="0"
+                                dynatrace-id="builtin:tech.jvm.spark.driver.Count.timer"
+                                entity-id=""
+                                entity-types="PROCESS_GROUP"
+                                format="NUMBER"
+                                name="builtin:tech.jvm.spark.driver.Count.timer"
+                                sampling="0"
+                                short-display-name="Processing time - count" unit=""/>
+                        </monitor-category>
+                        <monitor-category name="Mean" short-display-name="Mean">
+                            <monitor-dynatrace callTime="ON_BENCH"
+                                computing="0"
+                                dynatrace-id="builtin:tech.jvm.spark.driver.Mean.timer"
+                                entity-id=""
+                                entity-types="PROCESS_GROUP"
+                                format="NUMBER"
+                                name="builtin:tech.jvm.spark.driver.Mean.timer"
+                                sampling="0"
+                                short-display-name="Processing time - mean" unit="ms"/>
+                        </monitor-category>
+                        <monitor-category name="OneMinuteRate" short-display-name="OneMinuteRate">
+                            <monitor-dynatrace callTime="ON_BENCH"
+                                computing="0"
+                                dynatrace-id="builtin:tech.jvm.spark.driver.OneMinuteRate.timer"
+                                entity-id=""
+                                entity-types="PROCESS_GROUP"
+                                format="NUMBER"
+                                name="builtin:tech.jvm.spark.driver.OneMinuteRate.timer"
+                                sampling="0"
+                                short-display-name="Processing time - one minute rate" unit="/s"/>
+                        </monitor-category>
+                        <monitor-category name="activeJobs" short-display-name="activeJobs">
+                            <monitor-dynatrace callTime="ON_BENCH"
+                                computing="0"
+                                dynatrace-id="builtin:tech.jvm.spark.driver.activeJobs.gauge"
+                                entity-id=""
+                                entity-types="PROCESS_GROUP"
+                                format="NUMBER"
+                                name="builtin:tech.jvm.spark.driver.activeJobs.gauge"
+                                sampling="0"
+                                short-display-name="Active jobs" unit=""/>
+                        </monitor-category>
+                        <monitor-category name="allJobs" short-display-name="allJobs">
+                            <monitor-dynatrace callTime="ON_BENCH"
+                                computing="0"
+                                dynatrace-id="builtin:tech.jvm.spark.driver.allJobs.gauge"
+                                entity-id=""
+                                entity-types="PROCESS_GROUP"
+                                format="NUMBER"
+                                name="builtin:tech.jvm.spark.driver.allJobs.gauge"
+                                sampling="0"
+                                short-display-name="Total jobs" unit=""/>
+                        </monitor-category>
+                        <monitor-category name="failedStages" short-display-name="failedStages">
+                            <monitor-dynatrace callTime="ON_BENCH"
+                                computing="0"
+                                dynatrace-id="builtin:tech.jvm.spark.driver.failedStages.gauge"
+                                entity-id=""
+                                entity-types="PROCESS_GROUP"
+                                format="NUMBER"
+                                name="builtin:tech.jvm.spark.driver.failedStages.gauge"
+                                sampling="0"
+                                short-display-name="Failed stages" unit=""/>
+                        </monitor-category>
+                        <monitor-category name="runningStages" short-display-name="runningStages">
+                            <monitor-dynatrace callTime="ON_BENCH"
+                                computing="0"
+                                dynatrace-id="builtin:tech.jvm.spark.driver.runningStages.gauge"
+                                entity-id=""
+                                entity-types="PROCESS_GROUP"
+                                format="NUMBER"
+                                name="builtin:tech.jvm.spark.driver.runningStages.gauge"
+                                sampling="0"
+                                short-display-name="Running stages" unit=""/>
+                        </monitor-category>
+                        <monitor-category name="waitingStages" short-display-name="waitingStages">
+                            <monitor-dynatrace callTime="ON_BENCH"
+                                computing="0"
+                                dynatrace-id="builtin:tech.jvm.spark.driver.waitingStages.gauge"
+                                entity-id=""
+                                entity-types="PROCESS_GROUP"
+                                format="NUMBER"
+                                name="builtin:tech.jvm.spark.driver.waitingStages.gauge"
+                                sampling="0"
+                                short-display-name="Waiting stages" unit=""/>
+                        </monitor-category>
+                    </monitor-category>
+                    <monitor-category name="waitingApps" short-display-name="waitingApps">
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.jvm.spark.waitingApps.gauge"
+                            entity-id="" entity-types="PROCESS_GROUP"
+                            format="NUMBER"
+                            name="builtin:tech.jvm.spark.waitingApps.gauge"
+                            sampling="0"
+                            short-display-name="Waiting apps" unit=""/>
+                    </monitor-category>
+                    <monitor-category name="workers" short-display-name="workers">
+                        <monitor-dynatrace callTime="ON_BENCH"
+                            computing="0"
+                            dynatrace-id="builtin:tech.jvm.spark.workers.gauge"
+                            entity-id="" entity-types="PROCESS_GROUP"
+                            format="NUMBER"
+                            name="builtin:tech.jvm.spark.workers.gauge"
+                            sampling="0"
+                            short-display-name="Master workers" unit=""/>
+                    </monitor-category>
+                </monitor-category>
+            </monitor-category>
+        </monitor-category>
+    </monitor-category>
+</connection-dynatrace>

@@ -6,7 +6,7 @@
         <volume-policy-entry>
             <rampup-volume-policy delayIncrement="10.0"
                 delayTypeIncrement="1" initialUserNumber="2"
-                iterationNumber="1" maxUserNumber="2" userIncrement="1"/>
+                iterationNumber="1" maxUserNumber="5" userIncrement="1"/>
         </volume-policy-entry>
         <start-stop-policy-entry start-delay="0" start-type="0"
             stop-delay="60000" stop-type="0"/>
@@ -21,12 +21,12 @@
     <population-policy name="mochaTests">
         <duration-policy-entry iterations="1" time="900" timeUnit="0" type="2"/>
         <volume-policy-entry>
-            <constant-volume-policy iterationNumber="1" userNumber="1"/>
+            <constant-volume-policy iterationNumber="1" userNumber="2"/>
         </volume-policy-entry>
         <start-stop-policy-entry start-delay="5000" start-type="1"
             stop-delay="60000" stop-type="1"/>
         <runtime-policy continueOnError="true" thinktimePolicy="0"
-            thinktimeValue="5000" vuStartDelay="0" vuStartMode="0"/>
+            thinktimeValue="5000" vuStartDelay="10000" vuStartMode="1"/>
         <!--****** POPULATION LG HOSTS ******-->
         <lg-hosts>
             <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
@@ -44,7 +44,7 @@
             <action-curve-description
                 actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
                 color="153,153,0" dashed="false" populationName=""
-                scale="10.0" selected="false"
+                scale="1.0" selected="false"
                 statisticName="result.average.duration" zoneName=""/>
             <action-curve-description
                 actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
@@ -110,11 +110,11 @@
             <monitor-curve-description color="15,79,152"
                 connectionName="mysql" dashed="false"
                 monitorName="Read Rates/ handler read random"
-                monitoredHostName="mysql-ushahidi" scale="0.01" selected="false"/>
+                monitoredHostName="mysql-ushahidi" scale="0.001" selected="false"/>
             <monitor-curve-description color="66,137,41"
                 connectionName="mysql" dashed="false"
                 monitorName="Read Rates/ handler read random next"
-                monitoredHostName="mysql-ushahidi" scale="0.01" selected="false"/>
+                monitoredHostName="mysql-ushahidi" scale="0.001" selected="false"/>
             <monitor-curve-description color="183,179,0"
                 connectionName="mysql" dashed="false"
                 monitorName="Key Rates/ key reads (disk)"
@@ -218,7 +218,7 @@
             <monitor-curve-description color="20,28,6"
                 connectionName="mysql" dashed="false"
                 monitorName="Misc./ sort rows"
-                monitoredHostName="mysql-ushahidi" scale="0.01" selected="false"/>
+                monitoredHostName="mysql-ushahidi" scale="0.001" selected="false"/>
             <monitor-curve-description color="138,218,86"
                 connectionName="mysql" dashed="false"
                 monitorName="Misc./ sort scan"
@@ -242,21 +242,23 @@
             chart-description-type="chart-description-type"
             domainMarkerVisible="true" granularityLevel="0"
             historyState="XMIN" includeInReport="false"
-            rangeMarkerVisible="true"
-            title="Selenium/Ushahidi App should create new post/Open //W3C/browser/domContentLoad" typeName="CLASSIC">
+            rangeMarkerVisible="true" title="Open / - Average duration" typeName="CLASSIC">
+            <action-curve-description
+                actionUid="b023408f-57c9-4b32-9898-8e4dee276a4a"
+                color="153,153,0" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="Ushahidi App should create new post_" zoneName=""/>
+            <action-curve-description
+                actionUid="$parent=MochaEUX;$index=1" color="88,183,55"
+                dashed="false" populationName="" scale="10.0"
+                selected="false" statisticName="result.hit.rate"
+                virtualUserUid="MochaEUX" zoneName=""/>
             <third-party-data-curve-description color="178,140,0"
                 dashed="false"
-                path="Selenium/Ushahidi App should create new post/Open //W3C/browser/domContentLoad"
+                path="Selenium/Ushahidi App should create new post/Geosearch/Timer"
                 scale="0.01" selected="false" unit="ms"/>
             <third-party-data-curve-description color="20,106,203"
-                dashed="false"
-                path="Selenium/Ushahidi App should create new post/Open //W3C/browser/navigateToLoadEnd"
-                scale="0.01" selected="false" unit="ms"/>
-            <third-party-data-curve-description color="88,183,55"
-                dashed="false"
-                path="Selenium/Ushahidi App should create new post/Open //W3C/browser/documentComplete"
-                scale="0.01" selected="false" unit="ms"/>
-            <third-party-data-curve-description color="200,0,0"
                 dashed="false"
                 path="Selenium/Ushahidi App should create new post/Open //W3C/paint/first-contentful-paint"
                 scale="0.01" selected="true" unit="ms"/>
@@ -269,17 +271,26 @@
             <action-curve-description
                 actionUid="b023408f-57c9-4b32-9898-8e4dee276a4a"
                 color="153,153,0" dashed="false" populationName=""
-                scale="1.0" selected="false"
+                scale="1.0" selected="true"
                 statisticName="result.average.duration"
                 virtualUserUid="Ushahidi App should create new post_" zoneName=""/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="Selenium/Ushahidi App should create new post/Open //W3C/paint/first-contentful-paint" typeName="CLASSIC">
             <third-party-data-curve-description color="178,140,0"
                 dashed="false"
-                path="Selenium/Ushahidi App should create new post/Open //Timer"
-                scale="0.01" selected="false" unit="ms"/>
-            <third-party-data-curve-description color="20,106,203"
-                dashed="false"
                 path="Selenium/Ushahidi App should create new post/Open //W3C/paint/first-contentful-paint"
-                scale="0.01" selected="true" unit="ms"/>
+                scale="0.01" selected="false" unit="ms"/>
+            <action-curve-description
+                actionUid="b023408f-57c9-4b32-9898-8e4dee276a4a"
+                color="153,153,0" dashed="false" populationName=""
+                scale="1.0" selected="true"
+                statisticName="result.average.duration"
+                virtualUserUid="Ushahidi App should create new post_" zoneName=""/>
         </chart-description>
     </charts-model-description>
     <!--****** END DASHBOARDS  ******-->
@@ -292,6 +303,7 @@
     <!--****** END DEBUG POLICY ******-->
     <!--****** START VU STATES ******-->
     <!--****** END VU STATES ******-->
+    <!--****** START EXCLUSION FILTER ******-->
     <request-path-exclusion-filter isEnabled="false">
         <regexps>
             <regexp>.*\.jpg</regexp>
@@ -308,6 +320,10 @@
             <regexp>.*\.properties</regexp>
         </regexps>
     </request-path-exclusion-filter>
+    <!--****** END  EXCLUSION FILTER ******-->
+    <!--****** START DYNATRACE MONITORING ******-->
+    <dynatrace-monitoring/>
+    <!--****** END  DYNATRACE MONITORING ******-->
     <!--****** START TRACE VARIABLES ******-->
     <!--****** END TRACE VARIABLES ******-->
 </scenario>

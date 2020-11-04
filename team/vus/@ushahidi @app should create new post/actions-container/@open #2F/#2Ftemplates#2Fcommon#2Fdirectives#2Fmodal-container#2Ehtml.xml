@@ -1,0 +1,134 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/common/directives/modal-container.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/032888cd-23c4-4445-81d5-8bb0bf1451fe.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="032888cd-23c4-4445-81d5-8bb0bf1451fe">
+    <embedded-action>75f98b4e-c4bb-486e-876b-fb697c787575</embedded-action>
+    <embedded-action>b0c556e1-e2fb-4f82-b9fe-1fa8fb6ecf46</embedded-action>
+    <embedded-action>8c4cb936-08a3-4004-8479-f3372a58dcff</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/templates/common/directives/modal-container.html"
+    path="/templates/common/directives/modal-container.html"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/032888cd-23c4-4445-81d5-8bb0bf1451fe.zip"
+    recordedResponseCode="200" responseSize="1085" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="75f98b4e-c4bb-486e-876b-fb697c787575" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_75f98b4e-c4bb-486e-876b-fb697c787575.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_75f98b4e-c4bb-486e-876b-fb697c787575.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="dtCookie=6$8481A681810C25C6442FD13D3A1B0A74; rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; rxvt=1600197344306|1600195542195; dtPC=6$595542186_514h11vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e1"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <header name="x-dtpc" value="6$595542186_514h8vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e1"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:44 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:20 GMT&#xd;
+ETag: "43d-5418707372c40-gzip:dtagent10199200831173248hQm/"&#xd;
+Accept-Ranges: bytes&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 448&#xd;
+Content-Type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/platform/oauth/token"
+    path="/platform/oauth/token" postType="4"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/032888cd-23c4-4445-81d5-8bb0bf1451fe.zip"
+    recordedResponseCode="200" responseSize="120" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="b0c556e1-e2fb-4f82-b9fe-1fa8fb6ecf46" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b0c556e1-e2fb-4f82-b9fe-1fa8fb6ecf46</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b0c556e1-e2fb-4f82-b9fe-1fa8fb6ecf46.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="4" extractTypeAdv="4" extractTypeSimple="0"
+        jsonpath="$.access_token" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="fp_oauth_bearer_access_token"
+        regExp="(.*)" regExpAdv="(.*)" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="db4264d9-37b4-42d7-8566-b39c03d7bcda" xpath=""/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Content-Type" value="application/json;charset=UTF-8"/>
+    <header name="Cookie" value="dtCookie=6$8481A681810C25C6442FD13D3A1B0A74; rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; rxvt=1600197344306|1600195542195; dtPC=6$595542186_514h11vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e1"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Origin" value="http://ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <header name="x-dtpc" value="6$595542186_514h11vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e1"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:44 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Content-Length: 120&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"grant_type":"client_credentials","client_id":"ushahidiui","client_secret":"${fp_oauth_client_secret}","scope":"posts media forms api tags savedsearches sets users stats layers config messages notifications contacts roles permissions csv"}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/platform/oauth/token"
+    path="/platform/oauth/token" postType="4"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/032888cd-23c4-4445-81d5-8bb0bf1451fe.zip"
+    recordedResponseCode="200" responseSize="120" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="8c4cb936-08a3-4004-8479-f3372a58dcff" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_8c4cb936-08a3-4004-8479-f3372a58dcff</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8c4cb936-08a3-4004-8479-f3372a58dcff.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="4" extractTypeAdv="4" extractTypeSimple="0"
+        jsonpath="$.access_token" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="fp_oauth_bearer_access_token-1"
+        regExp="(.*)" regExpAdv="(.*)" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="ded4de65-a618-4b90-bccd-56d42a9123cc" xpath=""/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Content-Type" value="application/json;charset=UTF-8"/>
+    <header name="Cookie" value="dtCookie=6$8481A681810C25C6442FD13D3A1B0A74; rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; rxvt=1600197344306|1600195542195; dtPC=6$595542186_514h11vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e1"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Origin" value="http://ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <header name="x-dtpc" value="6$595542186_514h11vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e1"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:44 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Content-Length: 120&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"grant_type":"client_credentials","client_id":"ushahidiui","client_secret":"${fp_oauth_client_secret}","scope":"posts media forms api tags savedsearches sets users stats layers config messages notifications contacts roles permissions csv"}]]></textPostContent>
+</http-action>

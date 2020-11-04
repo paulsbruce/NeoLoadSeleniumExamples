@@ -1,7 +1,6 @@
 <basic-logical-action-container element-number="1" execution-type="0"
     name="Open /" pacingEnd="0" pacingMode="MODE_NO_PACING"
     pacingStart="0" pacingValue="0" slaProfileEnabled="false"
-    traceVariableNamesAsString=""
     uid="b023408f-57c9-4b32-9898-8e4dee276a4a" weightsEnabled="false">
     <weighted-embedded-action uid="6de01643-ad9c-4e16-8f44-3e106dcef223"/>
     <weighted-embedded-action uid="0b440d93-3a69-4c8b-b64e-655c7bd3008b"/>

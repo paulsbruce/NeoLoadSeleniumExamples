@@ -1,0 +1,334 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/main/posts/common/collection-toggle/collection-toggle-link.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/53a49e1c-84ec-4703-88c9-fd8b84992a84.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="53a49e1c-84ec-4703-88c9-fd8b84992a84">
+    <embedded-action>90d0aae3-eda1-4ef0-af81-a552eaf768f4</embedded-action>
+    <embedded-action>6889df61-d060-4831-ba9e-4d3b28f1079a</embedded-action>
+    <embedded-action>7a40e1fd-536c-4ca6-a718-c0db844e1750</embedded-action>
+    <embedded-action>919c3d28-9595-4d98-8ca5-208cd403e40d</embedded-action>
+    <embedded-action>38b963a2-e5c9-4d81-befa-27ba798a9a0c</embedded-action>
+    <embedded-action>2c1cdd73-0c40-4d09-aada-9637a61513dd</embedded-action>
+    <embedded-action>000c313f-fe29-4d71-b960-da189ca720ac</embedded-action>
+    <embedded-action>1a22557a-528f-4d32-859d-5dd0f4d35dc8</embedded-action>
+    <embedded-action>d04f3f1a-3944-448f-bb18-1b571ccc3073</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/templates/main/posts/common/collection-toggle/collection-toggle-link.html"
+    path="/templates/main/posts/common/collection-toggle/collection-toggle-link.html"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/53a49e1c-84ec-4703-88c9-fd8b84992a84.zip"
+    recordedResponseCode="200" responseSize="306" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="90d0aae3-eda1-4ef0-af81-a552eaf768f4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_90d0aae3-eda1-4ef0-af81-a552eaf768f4.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_90d0aae3-eda1-4ef0-af81-a552eaf768f4.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; nl_transaction=Submit; dtCookie=6$8481A681810C25C6442FD13D3A1B0A74|ea7c4b59f27d43eb|1; rxvt=1600197350745|1600195542195; dtPC=6$595542186_514h84vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e4"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/posts/2924"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <header name="x-dtpc" value="6$595542186_514h84vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e4"/>
+    <header name="x-dtreferer" value="http://ushahidi/posts/create/4"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:50 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:49 GMT&#xd;
+ETag: "132-5418708f1ad80-gzip:dtagent10199200831173248hQm/"&#xd;
+Accept-Ranges: bytes&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 223&#xd;
+Content-Type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/img/marker-icon-2x.png"
+    path="/img/marker-icon-2x.png" postType="2"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/53a49e1c-84ec-4703-88c9-fd8b84992a84.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="6889df61-d060-4831-ba9e-4d3b28f1079a" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_6889df61-d060-4831-ba9e-4d3b28f1079a.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; nl_transaction=Submit; dtCookie=6$8481A681810C25C6442FD13D3A1B0A74|ea7c4b59f27d43eb|1; rxvt=1600197350745|1600195542195; dtPC=6$595542186_514h84vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e4"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/posts/2924"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:50 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:17 GMT&#xd;
+ETag: "fc1-5418706fa2340"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 4033&#xd;
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/img/marker-shadow.png"
+    path="/img/marker-shadow.png" postType="2"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/53a49e1c-84ec-4703-88c9-fd8b84992a84.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="7a40e1fd-536c-4ca6-a718-c0db844e1750" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_7a40e1fd-536c-4ca6-a718-c0db844e1750.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; nl_transaction=Submit; dtCookie=6$8481A681810C25C6442FD13D3A1B0A74|ea7c4b59f27d43eb|1; rxvt=1600197350745|1600195542195; dtPC=6$595542186_514h84vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e4"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/posts/2924"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:50 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:17 GMT&#xd;
+ETag: "31d-5418706fa2340"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 797&#xd;
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/rb_bf42640bbz" path="/rb_bf42640bbz"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/53a49e1c-84ec-4703-88c9-fd8b84992a84.zip"
+    recordedResponseCode="200" responseSize="445" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="919c3d28-9595-4d98-8ca5-208cd403e40d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_919c3d28-9595-4d98-8ca5-208cd403e40d</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_919c3d28-9595-4d98-8ca5-208cd403e40d.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="false" name="app"
+        recordRawValue="ea7c4b59f27d43eb;end=1" separator="="
+        value="ea7c4b59f27d43eb;end=1" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Content-Type" value="text/plain;charset=UTF-8"/>
+    <header name="Cookie" value="rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; nl_transaction=Submit; rxvt=1600197350745|1600195542195; dtPC=6$595542186_514h-vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e4; dtCookie=6$8481A681810C25C6442FD13D3A1B0A74|ea7c4b59f27d43eb|1"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Origin" value="http://ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/posts/2924"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <header name="x-dtreferer" value="http://ushahidi/posts/create/4"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:51 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 282&#xd;
+Content-Type: text/plain; charset=utf-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[$a=1%7C75%7CSUBMIT%7CC%7Cg1.5.8%7C1600195550164%7C1600195550837%7C1067%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fposts%7C-%7Cb1600195550181e0f0g0h0i0k1l242m242u1580v1155w1155z11I1%7C-%7C262%7C262%2C2%7C85%7C_event_%7C1600195550164%7C_vc_%7CV%7C654%5Epc%7CVCS%7C1600195550921%7CVE%7C399%5Ep197%5Ep53284%5Epc%5Espostcard-field%7CS%7C551%2C2%7C76%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195550439%7C1600195550566%7C1072%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fposts%2F2924%7C-%7Cb1600195550455e0f0g0h0i0k1l101m101u1517v1155w1155z11I1%7C-%7C126%7C127%2C2%7C77%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195550443%7C1600195550551%7C977%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fdetail%2Fdetail.html%7C-%7Cb1600195550457e0f0g0h0i0k1l65m66u2046v1679w6048z11I1%7C-%7C107%7C108%2C2%7C78%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195550591%7C1600195550718%7C1064%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fcommon%2Fpost-metadata.html%7C-%7Cb1600195550639e0f0g0h0i0k1l66m67u676v311w723z11I1%7C-%7C127%7C127%2C2%7C79%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195550598%7C1600195550736%7C1067%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fcommon%2Fpost-actions.html%7C-%7Cb1600195550641e0f0g0h0i0k1l64m64u1121v756w3022z11I1%7C-%7C136%7C138%2C2%7C80%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195550606%7C1600195550646%7C1072%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fforms%2F4%2Fstages%7C-%7C-%7C-%7C40%7C40%2C2%7C81%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195550611%7C1600195550646%7C1072%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fforms%2F4%2Fattributes%7C-%7C-%7C-%7C35%7C35%2C2%7C82%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195550615%7C1600195550783%7C1067%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fposts%2F2924%2Fgeojson%7C-%7Cb1600195550645e0f0g0h0i0k1l98m98u898v575w575z11I1%7C-%7C168%7C168%2C2%7C83%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195550683%7C1600195550811%7C1067%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fdetail%2Fpost-value.html%7C-%7Cb1600195550692e0f0g0h0i0k1l63m64u655v290w637z11I1%7C-%7C128%7C129%2C2%7C84%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195550744%7C1600195550837%7C1067%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fcommon%2Fcollection-toggle%2Fcollection-toggle-link.html%7C-%7Cb1600195550765e0f0g0h0i0k1l54m54u588v223w306z11I1%7C-%7C92%7C93$svrid=6$rId=RID_2418$rpId=155479910$domR=1600195544239$url=http%3A%2F%2Fushahidi%2Fposts%2F2924$title=My%20new%20event%20-%20Neotys%20demonstration%20application$vd=1178$sUrl=http%3A%2F%2Fushahidi%2Fposts%2Fcreate%2F4$sTitle=Create%20Post%20-%20Neotys%20demonstration%20application$latC=2$app=ea7c4b59f27d43eb$visitID=IFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0$vs=2$fId=595542186_514$v=10199200831173248$vID=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM$nV=1$time=1600195551041$cs=1163890706]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/rb_bf42640bbz" path="/rb_bf42640bbz"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/53a49e1c-84ec-4703-88c9-fd8b84992a84.zip"
+    recordedResponseCode="200" responseSize="445" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="38b963a2-e5c9-4d81-befa-27ba798a9a0c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_38b963a2-e5c9-4d81-befa-27ba798a9a0c</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_38b963a2-e5c9-4d81-befa-27ba798a9a0c.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="false" name="app"
+        recordRawValue="ea7c4b59f27d43eb;end=1" separator="="
+        value="ea7c4b59f27d43eb;end=1" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Content-Type" value="text/plain;charset=UTF-8"/>
+    <header name="Cookie" value="rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; nl_transaction=Back to map; rxvt=1600197351405|1600195542195; dtPC=6$595542186_514h86vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e4; dtCookie=6$8481A681810C25C6442FD13D3A1B0A74|ea7c4b59f27d43eb|1"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Origin" value="http://ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <header name="x-dtreferer" value="http://ushahidi/"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:51 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 282&#xd;
+Content-Type: text/plain; charset=utf-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[app=ea7c4b59f27d43eb&svrid=6&sid=1600195551583&p1_2=$a=1%7C1%7C_load_%7C_load_%7C-%7C1600195541694%7C1600195551344%7C880%2C2%7C87%7C_event_%7C1600195541694%7C_vc_%7CV%7C9650%5Epf%7CVCS%7C1600195550257%7CVE%7C459%5Ep486%5Ep39424%5Epc%5Esleaflet-tile%20leaflet-tile-loaded%7CS%7C3018%2C2%7C2%7Cx%7Cxhr%7Cx%7C1600195542514%7C1600195542696%7C42%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fconfig%7C-%7Cb1600195542518e0f0g0h0i0k1l98m132u2695v2361w2361z11I1%7C-%7C181%7C182%2C2%7C3%7C_onload_%7C_load_%7C-%7C1600195544241%7C1600195550202%7C880%2C3%7C4%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544264%7C1600195544514%7C872%7C-%7C-%7C%2Flocales%2Flanguages.json%7C-%7Cb1600195544314e0f0g0h0i0k1l67m67u1316v1050w1050z11I1%7C-%7C249%7C250%2C3%7C5%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544269%7C1600195545063%7C880%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fconfig%2Fsite%7C-%7Cb1600195544757e0f0g0h0i0k6l95m95u898v565w565z11I1%7C-%7C794%7C794%2C3%7C6%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544280%7C1600195544384%7C872%7C-%7C-%7C%2Ftemplates%2Fcommon%2Fdirectives%2Fmode-bar%2Fmode-bar.html%7C-%7Cb1600195544316e0f0g0h0i0k1l64m65u1362v996w5094z11I1%7C-%7C103%7C104%2C3%7C7%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544284%7C1600195544509%7C872%7C-%7C-%7C%2Ftemplates%2Fcommon%2Fnotifications%2Fslider.html%7C-%7Cb1600195544319e0f0g0h0i0k1l62m63u650v285w541z11I1%7C-%7C225%7C225%2C3%7C8%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544286%7C1600195544515%7C872%7C-%7C-%7C%2Ftemplates%2Fcommon%2Fdirectives%2Fmodal-container.html%7C-%7Cb1600195544321e0f0g0h0i0k1l69m70u813v448w1085z11I1%7C-%7C229%7C229%2C3%7C9%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544292%7C1600195545063%7C880%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fconfig%2Fsite%7C-%7Cb1600195544757e0f0g0h0i0k6l95m95u898v565w565z1I1%7C-%7C771%7C771%2C3%7C10%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544303%7C1600195544750%7C874%7C-%7C-%7C%2Fplatform%2Foauth%2Ftoken%7C-%7Cb1600195544326e0f0g0h0i0k0l189m190u378v120w120z11I1%7C-%7C447%7C447%2C3%7C11%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544306%7C1600195544769%7C874%7C-%7C-%7C%2Fplatform%2Foauth%2Ftoken%7C-%7Cb1600195544326e0f0g0h0i0k0l189m190u378v120w120z1I1%7C-%7C443%7C463%2C3%7C12%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544337%7C1600195544526%7C872%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fmain.html%7C-%7Cb1600195544343e0f0g0h0i0k40l111m112u913v548w1293z11I1%7C-%7C188%7C189%2C3%7C13%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544404%7C1600195545133%7C880%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fconfig%2Ffeatures%7C-%7Cb1600195544862e0f0g0h0i0k149l235m236u1063v730w730z11I1%7C-%7C729%7C729%2C3%7C14%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544409%7C1600195545063%7C880%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fconfig%2Fsite%7C-%7Cb1600195544757e0f0g0h0i0k6l95m95u898v565w565z1I1%7C-%7C654%7C654%2C3%7C15%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544420%7C1600195544847%7C874%7C-%7C-%7C%2Fplatform%2Foauth%2Ftoken%7C-%7Cb1600195544484e0f0g0h0i0k1l236m239u378v120w120z1I1%7C-%7C427%7C428%2C3%7C16%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544431%7C1600195544845%7C874%7C-%7C-%7C%2Fplatform%2Foauth%2Ftoken%7C-%7Cb1600195544484e0f0g0h0i0k1l236m239u378v120w120z1I1%7C-%7C413%7C416%2C3%7C17%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544492%7C1600195544760%7C874%7C-%7C-%7C%2Ftemplates%2Fcommon%2Fdirectives%2Fmode-bar%2Fushahidi-logo.html%7C-%7Cb1600195544504e0f0g0h0i0k1l61m63u4103v3736w10505z11I1%7C-%7C268%7C268%2C3%7C18%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544531%7C1600195545223%7C880%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fforms%7C-%7Cb1600195544904e0f0g0h0i0k142l309m310u2001v1639w1639z11I1%7C-%7C692%7C692%2C3%7C19%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544544%7C1600195544776%7C874%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Ffilters%2Factive-filters.html%7C-%7Cb1600195544644e0f0g0h0i0k1l74m77u666v301w473z11I1%7C-%7C231%7C232%2C3%7C20%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544551%7C1600195544841%7C874%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fsavedsearches%2Fsavedsearch-create.html%7C-%7Cb1600195544647e0f0g0h0i0k1l72m75u555v190w346z11I1%7C-%7C290%7C290%2C3%7C21%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544559%7C1600195544867%7C874%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fmode-context-form-filter.html%7C-%7Cb1600195544651e0f0g0h0i0k1l69m72u1276v910w4480z11I1%7C-%7C308%7C308%2C3%7C22%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544566%7C1600195544924%7C874%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fpost-view.html%7C-%7Cb1600195544655e0f0g0h0i0k1l72m73u647v282w773z11I1%7C-%7C357%7C358%2C3%7C23%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544571%7C1600195545055%7C880%7C-%7C-%7C%2Ftemplates%2Fcommon%2Fdirectives%2Fush-logo.html%7C-%7Cb1600195544660e0f0g0h0i0k65l147m148u560v196w254z11I1%7C-%7C484%7C484%2C3%7C24%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544578%7C1600195545133%7C880%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fconfig%2Ffeatures%7C-%7Cb1600195544862e0f0g0h0i0k149l235m236u1063v730w730z1I1%7C-%7C555%7C555%2C3%7C25%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544583%7C1600195545106%7C880%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fconfig%2Fsite%7C-%7Cb1600195544757e0f0g0h0i0k6l95m95u898v565w565z1I1%7C-%7C479%7C523%2C3%7C26%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544615%7C1600195545097%7C880%7C-%7C-%7C%2Fplatform%2Foauth%2Ftoken%7C-%7Cb1600195544668e0f0g0h0i0k56l410m411u378v120w120z1I1%7C-%7C482%7C482%2C3%7C27%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544627%7C1600195545087%7C880%7C-%7C-%7C%2Fplatform%2Foauth%2Ftoken%7C-%7Cb1600195544668e0f0g0h0i0k56l410m411u378v120w120z1I1%7C-%7C460%7C460%2C3%7C28%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544631%7C1600195545101%7C880%7C-%7C-%7C%2Fplatform%2Foauth%2Ftoken%7C-%7Cb1600195544668e0f0g0h0i0k56l410m411u378v120w120z1I1%7C-%7C456%7C470%2C3%7C29%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544778%7C1600195545090%7C880%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Ftags%7C-%7Cb1600195544831e0f0g0h0i0k1l213m214u716v355w355z11I1%7C-%7C312%7C312%2C3%7C30%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544782%7C1600195545085%7C880%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Froles%7C-%7Cb1600195544835e0f0g0h0i0k1l152m153u1460v1098w1098z11I1%7C-%7C303%7C304%2C3%7C31%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544790%7C1600195545095%7C880%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fusers%7C-%7Cb1600195544839e0f0g0h0i0k14l239m240u1234v873w873z11I1%7C-%7C305%7C305%2C3%7C32%7Cx%7Cxhr%7Cx%7C1600195544857%7C1600195545133%7C313%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fconfig%2Ffeatures%7C-%7Cb1600195544862e0f0g0h0i0k149l235m236u1063v730w730z1I1%7C-%7C276%7C276%2C3%7C33%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544877%7C1600195545223%7C880%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fforms%7C-%7Cb1600195544904e0f0g0h0i0k142l309m310u2001v1639w1639z1I1%7C-%7C340%7C346%2C3%7C34%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544881%7C1600195545358%7C1135%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fposts%2Fstats%7C-%7Cb1600195544909e0f0g0h0i0k171l309m310u864v503w503z11I1%7C-%7C476%7C477%2C3%7C35%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544925%7C1600195545251%7C880%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fpost-toolbar.html%7C-%7Cb1600195544976e0f0g0h0i0k104l237m238u572v207w531z11I1%7C-%7C325%7C326%2C3%7C36%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544932%7C1600195545307%7C880%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fpost-view-map.html%7C-%7Cb1600195544982e0f0g0h0i0k98l230m231u493v129w154z11I1%7C-%7C375%7C375%2C3%7C37%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544942%7C1600195545415%7C1135%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fpost-view-list.html%7C-%7Cb1600195545013e0f0g0h0i0k203l267m270u1378v1012w3334z11I1%7C-%7C473%7C473%2C3%7C38%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544948%7C1600195545463%7C1135%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fpost-view-unavailable.html%7C-%7Cb1600195545049e0f0g0h0i0k167l232m234u533v169w221z11I1%7C-%7C513%7C515%2C3%7C39%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195544954%7C1600195545307%7C880%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fpost-view-map.html%7C-%7Cb1600195544982e0f0g0h0i0k98l230m231u493v129w154z1I1%7C-%7C353%7C353%2C3%7C40%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195545064%7C1600195545373%7C1135%7C-%7C-%7C%2Flocales%2Fen-US.json%7C-%7Cb1600195545076e0f0g0h0i0k140l203m205u2634v2267w7187z11I1%7C-%7C308%7C309%2C3%7C41%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195545252%7C1600195545470%7C1135%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fadd-post-button.html%7C-%7Cb1600195545294e0f0g0h0i0k1l57m58u818v453w1103z11I1%7C-%7C217%7C218%2C3%7C42%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195545258%7C1600195545513%7C984%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Ffilters%2Ffilter-posts.html%7C-%7Cb1600195545297e0f0g0h0i0k1l107m107u1056v691w2093z11I1%7C-%7C255%7C255%2C3%7C43%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195545263%7C1600195545509%7C984%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Ffilter-by-survey.html%7C-%7Cb1600195545300e0f0g0h0i0k1l77m77u538v174w214z11I1%7C-%7C243%7C247%2C3%7C44%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195545267%7C1600195545725%7C1067%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fshare%2Fpost-share.html%7C-%7Cb1600195545305e0f0g0h67i68k68l209m212u650v285w516z11I1%7C-%7C458%7C458%2C3%7C45%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195545272%7C1600195545725%7C1067%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fshare%2Fpost-share.html%7C-%7Cb1600195545305e0f0g0h67i68k68l209m212u650v285w516z1I1%7C-%7C452%7C453%2C3%7C46%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195545313%7C1600195545652%7C1072%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fconfig%2Fmap%7C-%7Cb1600195545341e0f0g0h0i0k27l159m160u744v411w411z11I1%7C-%7C338%7C339%2C3%7C47%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195545319%7C1600195550202%7C880%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fposts%2Fgeojson%7C-%7Cb1600195545344e0f0g0h0i0k1l4047m4814u1976973v1976628w1976628z11I1%7C-%7C4864%7C4883%2C3%7C48%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195545418%7C1600195545722%7C1067%7C-%7C-%7C%2Ftemplates%2Fcommon%2Fdirectives%2Flist-toolbar.html%7C-%7Cb1600195545442e0f0g0h0i0k1l66m67u596v231w510z11I1%7C-%7C303%7C304%2C3%7C49%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195545425%7C1600195545744%7C1067%7C-%7C-%7C%2Ftemplates%2Fcommon%2Fconfigs%2Fuib-pagination.html%7C-%7Cb1600195545445e0f0g0h0i0k1l70m71u872v507w1781z11I1%7C-%7C318%7C319%2C3%7C50%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195545518%7C1600195545763%7C1067%7C-%7C-%7C%2Ftemplates%2Fcommon%2Fdirectives%2Ffilter-system%2Ffilter-searchbar.html%7C-%7Cb1600195545618e0f0g0h0i0k2l50m52u942v577w1371z11I1%7C-%7C245%7C245%2C3%7C51%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195545524%7C1600195545812%7C1067%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fsavedsearches%2Fsaved-search-dropdown.html%7C-%7Cb1600195545622e0f0g0h0i0k1l58m59u947v582w1372z11I1%7C-%7C288%7C288%2C3%7C52%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195545532%7C1600195545790%7C1067%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Ffilters%2Ffilter-form.html%7C-%7Cb1600195545625e0f0g0h0i0k1l54m56u804v439w1008z11I1%7C-%7C258%7C260%2C3%7C53%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195545540%7C1600195545857%7C1067%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Ffilters%2Ffilter-category.html%7C-%7Cb1600195545629e0f0g0h0i0k1l67m68u776v411w785z11I1%7C-%7C316%7C317%2C3%7C54%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195545573%7C1600195545841%7C1067%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Ffilters%2Ffilter-status.html%7C-%7Cb1600195545632e0f0g0h0i0k1l63m64u910v545w1492z11I1%7C-%7C267%7C268%2C3%7C55%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195545581%7C1600195545878%7C1067%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Ffilters%2Ffilter-date.html%7C-%7Cb1600195545635e0f0g0h0i0k35l88m89u760v395w1214z11I1%7C-%7C297%7C297%2C3%7C56%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195545586%7C1600195545946%7C1067%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fviews%2Ffilters%2Ffilter-location.html%7C-%7Cb1600195545639e0f0g0h0i0k59l111m112u762v397w1019z11I1%7C-%7C360%7C360%2C3%7C57%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195545815%7C1600195546004%7C1067%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fsavedsearches%7C-%7Cb1600195545836e0f0g0h0i0k1l114m115u743v382w382z11I1%7C-%7C189%7C189$svrid=6$rId=RID_2418$rpId=155479910$domR=1600195544239$fIDl=4510|2$w=1200$h=640$sw=1440$sh=900$nt=a0b1600195541694e3f3g3h4i5k5l125m131o807p807q808r2546s2548t2650u2689v2257w7179$ni=4g|3.05$fp=749$fcp=749$lcp=3870%7C16856%7C-%7C-%7C-$3p=1-1600195541694%3Bjs.intercomcdn.com%7C4%7C2%7C0%7C0%7C0%7C0%7C2%7C%7C0%7C0%7C0%7C1423_1620%7C148%7C99%7C196%3Bushahidi%7Cu%7C7%7C0%7C0%7C0%7C0%7C7%7C%7C0%7C0%7C0%7C2660_2809_3802_3913_5059_5063_8804_8805_9109_9186%7C70%7C1%7C119%7C2%7C0%7C0%7C0%7C0%7C2%7C%7C0%7C0%7C0%7C159_690%7C328%7C124%7C531%7C3%7C0%7C0%7C0%7C159_579%7C220%7C115%7C420%7C74%7C0%7C0%7C0%7C720_956_2620_3589_3600_8463_8487_8730_8761_8862_8945_9062_9071_9125%7C221%7C50%7C4814%3Bconnect.facebook.net%7C4%7C2%7C0%7C0%7C0%7C0%7C2%7C%7C0%7C0%7C0%7C816_2113_2116_2533%7C858%7C418%7C1297%3Bwidget.intercom.io%7Cg%7C1%7C0%7C0%7C0%7C1108_1410%7C302%7C302%7C302%3Bwww.gravatar.com%7Cg%7C3%7C0%7C0%7C0%7C2811_3221_5822_5963_9037_9083%7C199%7C46%7C411%3Bd28h099uturm62.cloudfront.net%7C2%7C1%7C0%7C0%7C0%7C0%7C1%7C%7C0%7C0%7C0%7C3432_3633%7C201%7C201%7C201%3Bapi.tiles.mapbox.com%7C2%7C30%7C8%7C0%7C0%7C0%7C38%7C%7C0%7C0%7C0%7C4022_4734_8385_8571_9109_9110_9113_9113_9115_9115_9422_9783%7C281%7C0%7C711%3Bnominatim.openstreetmap.org%7Cg%7C1%7C0%7C0%7C0%7C7337_8098%7C761%7C761%7C761$rt=1-1600195541694%3Bhttps%3A%2F%2Fjs.intercomcdn.com%2Fframe-modern.0ab9c78f.js%7Cb1423e0m99I12%7Chttps%3A%2F%2Fjs.intercomcdn.com%2Fvendor-modern.bb732e20.js%7Cb1424e0m196I12%7Chttp%3A%2F%2Fushahidi%2Ffonts%2FLato%2Fcss%2Ffonts.css%7Cb159e0f0g0h0i0k2l115m115u694v414w3443K1I11%7Chttp%3A%2F%2Fushahidi%2Fcss%2Fvendor.css%7Cb159e0f0g0h2i4k5l123m124u5128v4846w21929K1I11%7Chttp%3A%2F%2Fushahidi%2Fcss%2Fstyle.css%7Cb159e0f0g0h2i4k5l129m420u117185v116787w527990K1I11%7Chttp%3A%2F%2Fushahidi%2Fconfig.js%7Cb159e0f0g0h4i4k5l123m124u424v131w143K1I12%7Chttp%3A%2F%2Fushahidi%2Fjs%2Fbundle.js%7Cb159e0f0g0h4i4k5l129m531u418048v417371w1502861K1I12%7Chttp%3A%2F%2Fushahidi%2Ffonts%2FLato%2Ffonts%2FLatoLatin-Regular.woff2%7Cb720e0f0g0h0i0k90l140m205u43996v43760w43760I9%7Chttp%3A%2F%2Fconnect.facebook.net%2Fen_5FGB%2Fsdk.js%23xfbml%3D1%26version%3Dv2.8%7Cb816e0f0g1079h1079i1165j1109k1165l1214m1297u2345v1779w3224K1I12%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Fapi%2Fv3%2Fconfig%7Cb824e0f0g0h0i0k1l98m132u2695v2361w2361z1I1%7Chttps%3A%2F%2Fwidget.intercom.io%2Fwidget%2F%7Cb1108e0m302I12%7Chttps%3A%2F%2Fconnect.facebook.net%2Fen_5FGB%2Fsdk.js%3Fhash%3D300ab9dc105431f3c71ea68f0f074d36%26ua%3Dmodern_5Fes6%7Cb2116e0f9g9h9i105j49k105l193m418u62949v62345w205959I12%7Chttp%3A%2F%2Fushahidi%2Flocales%2Flanguages.json%7Cb2620e0f0g0h0i0k1l67m67u1316v1050w1050z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fcommon%2Fdirectives%2Fmode-bar%2Fmode-bar.html%7Cb2622e0f0g0h0i0k1l64m65u1362v996w5094z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fcommon%2Fnotifications%2Fslider.html%7Cb2625e0f0g0h0i0k1l62m63u650v285w541z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fcommon%2Fdirectives%2Fmodal-container.html%7Cb2627e0f0g0h0i0k1l69m70u813v448w1085z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Foauth%2Ftoken%7Cb2632e0f0g0h0i0k0l189m190u378v120w120z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Foauth%2Ftoken%7Cb2634e0f0g0h1i1k1l244m244u378v120w120z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fmain.html%7Cb2649e0f0g0h0i0k40l111m112u913v548w1293z1I1%7Chttp%3A%2F%2Fushahidi%2Ffavicon.ico%7Cb2660e0f0g0h0i0k29l100m111u2635v2268w7188I22%7Chttp%3A%2F%2Fushahidi%2Fimg%2Ficonic-sprite.svg%23map-marker%7Cb2690e0f0g0h0i0k1l70m119u58198v57962w57962I0%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Foauth%2Ftoken%7Cb2790e0f0g0h0i0k1l236m239u378v120w120z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Foauth%2Ftoken%7Cb2796e0f0g0h0i0k1l230m233u378v120w120z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fcommon%2Fdirectives%2Fmode-bar%2Fushahidi-logo.html%7Cb2810e0f0g0h0i0k1l61m63u4103v3736w10505z1I1%7Chttps%3A%2F%2Fwww.gravatar.com%2Favatar%2F00000000000000000000000000000000%3Fd%3Dretro%7Cb2811e0m411I7%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fviews%2Ffilters%2Factive-filters.html%7Cb2950e0f0g0h0i0k1l74m77u666v301w473z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fsavedsearches%2Fsavedsearch-create.html%7Cb2953e0f0g0h0i0k1l72m75u555v190w346z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fmode-context-form-filter.html%7Cb2957e0f0g0h0i0k1l69m72u1276v910w4480z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fpost-view.html%7Cb2961e0f0g0h0i0k1l72m73u647v282w773z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fcommon%2Fdirectives%2Fush-logo.html%7Cb2966e0f0g0h0i0k65l147m148u560v196w254z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Foauth%2Ftoken%7Cb2974e0f0g0h0i0k56l410m411u378v120w120z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Foauth%2Ftoken%7Cb2984e0f0g0h0i0k47l331m332u378v120w120z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Foauth%2Ftoken%7Cb2986e0f0g0h0i0k45l398m399u378v120w120z1I1%7Chttp%3A%2F%2Fushahidi%2Ffonts%2FLato%2Ffonts%2FLatoLatin-Heavy.woff2%7Cb3026e0f0g0h0i0k269l344m530u44516v44280w44280I9%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Fapi%2Fv3%2Fconfig%2Fsite%7Cb3063e0f0g0h0i0k6l95m95u898v565w565z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Fapi%2Fv3%2Ftags%7Cb3137e0f0g0h0i0k1l213m214u716v355w355z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Fapi%2Fv3%2Froles%7Cb3141e0f0g0h0i0k1l152m153u1460v1098w1098z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Fapi%2Fv3%2Fusers%7Cb3145e0f0g0h0i0k14l239m240u1234v873w873z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Fapi%2Fv3%2Fconfig%2Ffeatures%7Cb3168e0f0g0h0i0k149l235m236u1063v730w730z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Fapi%2Fv3%2Fforms%7Cb3210e0f0g0h0i0k142l309m310u2001v1639w1639z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Fapi%2Fv3%2Fposts%2Fstats%3Fgroup_5Fby%3Dform%26order%3Ddesc%26orderby%3Dpost_5Fdate%26status%3Dall%7Cb3215e0f0g0h0i0k171l309m310u864v503w503z1I1%7Chttp%3A%2F%2Fushahidi%2Ffonts%2FLato%2Ffonts%2FLatoLatin-Medium.woff2%7Cb3223e0f0g0h0i0k182l297m337u44156v43920w43920I9%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fpost-toolbar.html%7Cb3282e0f0g0h0i0k104l237m238u572v207w531z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fpost-view-map.html%7Cb3288e0f0g0h0i0k98l230m231u493v129w154z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fpost-view-list.html%7Cb3319e0f0g0h0i0k203l267m270u1378v1012w3334z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fpost-view-unavailable.html%7Cb3355e0f0g0h0i0k167l232m234u533v169w221z1I1%7Chttp%3A%2F%2Fushahidi%2Flocales%2Fen-US.json%7Cb3382e0f0g0h0i0k140l203m205u2634v2267w7187z1I1%7Chttp%3A%2F%2Fd28h099uturm62.cloudfront.net%2Fwp-content%2Fuploads%2F2017%2F03%2FNeotys-Emblem-Primary.png%7Cb3432e0m201I7%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fadd-post-button.html%7Cb3600e0f0g0h0i0k1l57m58u818v453w1103z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fviews%2Ffilters%2Ffilter-posts.html%7Cb3603e0f0g0h0i0k1l107m107u1056v691w2093z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fviews%2Ffilter-by-survey.html%7Cb3606e0f0g0h0i0k1l77m77u538v174w214z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fviews%2Fshare%2Fpost-share.html%7Cb3611e0f0g0h67i68k68l209m212u650v285w516z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Fapi%2Fv3%2Fconfig%2Fmap%7Cb3647e0f0g0h0i0k27l159m160u744v411w411z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Fapi%2Fv3%2Fposts%2Fgeojson%3Fform_255B_255D%3D2%26form_255B_255D%3D4%26order%3Ddesc%26orderby%3Dpost_5Fdate%26status_255B_255D%3Dpublished%26status_255B_255D%3Ddraft%7Cb3650e0f0g0h0i0k1l4047m4814u1976973v1976628w1976628z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fcommon%2Fdirectives%2Flist-toolbar.html%7Cb3748e0f0g0h0i0k1l66m67u596v231w510z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fcommon%2Fconfigs%2Fuib-pagination.html%7Cb3751e0f0g0h0i0k1l70m71u872v507w1781z1I1%7Chttp%3A%2F%2Fushahidi%2Fimg%2Ficons%2Fpng%2Fplus-2x.png%7Cb3802e0f0g0h3i4k5l110m111u367v139w139I7%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fcommon%2Fdirectives%2Ffilter-system%2Ffilter-searchbar.html%7Cb3924e0f0g0h0i0k2l50m52u942v577w1371z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fsavedsearches%2Fsaved-search-dropdown.html%7Cb3928e0f0g0h0i0k1l58m59u947v582w1372z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fviews%2Ffilters%2Ffilter-form.html%7Cb3931e0f0g0h0i0k1l54m56u804v439w1008z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fviews%2Ffilters%2Ffilter-category.html%7Cb3935e0f0g0h0i0k1l67m68u776v411w785z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fviews%2Ffilters%2Ffilter-status.html%7Cb3938e0f0g0h0i0k1l63m64u910v545w1492z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fviews%2Ffilters%2Ffilter-date.html%7Cb3941e0f0g0h0i0k35l88m89u760v395w1214z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fviews%2Ffilters%2Ffilter-location.html%7Cb3945e0f0g0h0i0k59l111m112u762v397w1019z1I1%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F2%2F2%2F1.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb4022e0f0g0h0i0k430l555m599u23046v22389w22389I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F2%2F2%2F2.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb4022e0f0g0h0i0k445l528m529u5929v5273w5273I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F2%2F1%2F1.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb4022e0f0g0h0i0k513l701m702u13097v12440w12440I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F2%2F3%2F1.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb4022e0f0g0h0i0k519l700m701u12885v12228w12228I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F2%2F1%2F2.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb4023e0f0g0h0i0k529l711m711u8430v7774w7774I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F2%2F3%2F2.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb4023e0f0g0h0i0k548l709m710u6208v5552w5552I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F2%2F2%2F0.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb4023e0f35g64h64i248j116k249l403m410u9112v8456w8456I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F2%2F2%2F3.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb4023e0f0g0h0i0k385l544m546u1940v1284w1284I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F2%2F1%2F0.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb4024e0f34g64h64i335j115k335l441m443u11649v10992w10992I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F2%2F3%2F0.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb4024e0f34g63h63i246j115k248l422m425u5488v4832w4832I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F2%2F1%2F3.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb4024e0f33g63h63i226j107k227l373m374u2803v2147w2147I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F2%2F3%2F3.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb4025e0f32g63h63i225j106k226l382m383u3197v2541w2541I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F2%2F0%2F1.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb4025e0f0g0h0i0k410l590m592u13139v12482w12482I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F2%2F0%2F2.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb4025e0f0g0h0i0k426l515m516u1588v933w933I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F2%2F0%2F0.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb4026e0f32g62h62i243j114k246l424m426u8372v7716w7716I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F2%2F0%2F3.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb4026e0f0g0h0i0k373l508m509u2385v1723w1723I7%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Fapi%2Fv3%2Fsavedsearches%7Cb4142e0f0g0h0i0k1l114m115u743v382w382z1I1%7Chttp%3A%2F%2Fushahidi%2Ffonts%2FLato%2Ffonts%2FLatoLatin-MediumItalic.woff2%7Cb4283e0f0g0h0i0k30l81m286u45220v44984w44984I9%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fmain.html%7Cb4666e0f0g0h0i0k1l481m482u403v68w68z1I1%7Chttp%3A%2F%2Fushahidi%2Ffavicon.ico%7Cb5059e0f0g0h0i0k3l3m3v2268w7188I22%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Fapi%2Fv3%2Fposts%3Forder%3Ddesc%26orderby%3Dpost_5Fdate%7Cb5220e0f0g0h0i0k1l355m355u493v70w70z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Fapi%2Fv3%2Fforms%2F4%7Cb5224e0f0g0h0i0k1l352m353u837v476w476z11I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fpost-editor.html%7Cb5585e0f0g0h0i0k1l68m69u2282v1915w7333z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fpost-toolbox.html%7Cb5760e0f0g0h0i0k1l55m55u1549v1182w4882z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fpost-tabs.html%7Cb5763e0f0g0h0i0k1l57m57u1105v740w2012z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Fapi%2Fv3%2Fforms%2F4%2Fstages%3Forder%3Dasc%26orderby%3Dpriority%7Cb5766e0f0g0h0i0k1l156m157u1174v813w813z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Fapi%2Fv3%2Fforms%2F4%2Fattributes%3Forder%3Dasc%26orderby%3Dpriority%7Cb5769e0f0g0h0i0k1l140m143u4654v4292w4292z1I1%7Chttp%3A%2F%2Fushahidi%2Ffonts%2FLato%2Ffonts%2FLatoLatin-Italic.woff2%7Cb5781e0f0g0h16i16k16l128m251u45624v45388w45388I9%7Chttp%3A%2F%2Fwww.gravatar.com%2Favatar%2F_257B_257B_2520post.user.gravatar_2520_257C_257C_2520%2700000000000000000000000000000000%27_2520_257D_257D%3Fd%3Dretro%26s%3D40%7Cb5822e0m141I7%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fpost-value-edit.html%7Cb5935e0f0g0h0i0k1l57m57u1745v1378w8008z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Frelation.html%7Cb6042e0f0g0h0i0k1l60m61u702v337w670z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Flocation.html%7Cb6046e0f0g0h0i0k1l49m50u752v387w913z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fmedia.html%7Cb6048e0f0g0h0i0k1l60m60u937v572w1791z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fpost-datetime-value.html%7Cb6051e0f0g0h0i0k1l61m62u609v244w716z11I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fcommon%2Fdirectives%2Ffile-upload.html%7Cb6201e0f0g0h0i0k1l53m54u461v98w93z1I1%7Chttps%3A%2F%2Fnominatim.openstreetmap.org%2Fsearch%3Fformat%3Djson%26q%3DBoston%7Cb7337e0m761z1I1%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F4%2F4%2F5.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb8385e0f0g0h0i0k1l143m186u21051v20394w20394I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F4%2F4%2F6.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb8385e0f0g0h0i0k2l137m138u12900v12243w12243I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F4%2F3%2F5.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb8385e0f0g0h0i0k3l107m144u19700v19043w19043I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F4%2F5%2F5.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb8385e0f0g0h0i0k2l109m113u10913v10256w10256I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F4%2F3%2F6.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb8386e0f0g0h0i0k2l116m178u20864v20207w20207I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F4%2F5%2F6.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb8386e0f0g0h0i0k2l100m100u1217v556w556I7%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Fapi%2Fv3%2Fposts%3Forder%3Ddesc%26orderby%3Dpost_5Fdate%7Cb8487e0f0g0h0i0k1l242m242u1580v1155w1155z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Fapi%2Fv3%2Fposts%2F2924%3Forder%3Ddesc%26orderby%3Dpost_5Fdate%7Cb8761e0f0g0h0i0k1l101m101u1517v1155w1155z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fdetail%2Fdetail.html%7Cb8763e0f0g0h0i0k1l65m66u2046v1679w6048z1I1%7Chttp%3A%2F%2Fushahidi%2Ffavicon.ico%7Cb8804e0f0g0h0i0k0l1m1v2268w7188I22%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fcommon%2Fpost-metadata.html%7Cb8945e0f0g0h0i0k1l66m67u676v311w723z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fcommon%2Fpost-actions.html%7Cb8947e0f0g0h0i0k1l64m64u1121v756w3022z1I1%7Chttp%3A%2F%2Fushahidi%2Fplatform%2Fapi%2Fv3%2Fposts%2F2924%2Fgeojson%3Forder%3Ddesc%26orderby%3Dpost_5Fdate%7Cb8951e0f0g0h0i0k1l98m98u898v575w575z1I1%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fdetail%2Fpost-value.html%7Cb8998e0f0g0h0i0k1l63m64u655v290w637z1I1%7Chttp%3A%2F%2Fwww.gravatar.com%2Favatar%2F00000000000000000000000000000000%3Fd%3Dretro%26s%3D40%7Cb9037e0m46I7%7Chttp%3A%2F%2Fushahidi%2Ftemplates%2Fmain%2Fposts%2Fcommon%2Fcollection-toggle%2Fcollection-toggle-link.html%7Cb9071e0f0g0h0i0k1l54m54u588v223w306z1I1%7Chttp%3A%2F%2Fushahidi%2Fimg%2Fmarker-icon-2x.png%7Cb9109e0f0g0h0i0k4l64m70u4263v4033w4033I7%7Chttp%3A%2F%2Fushahidi%2Fimg%2Fmarker-shadow.png%7Cb9109e0f0g0h0i0k4l72m77u1026v797w797I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F18%2F79328%2F96957.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb9109e0m0I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F18%2F79329%2F96957.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb9109e0m0I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F18%2F79328%2F96958.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/rb_bf42640bbz" path="/rb_bf42640bbz"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/53a49e1c-84ec-4703-88c9-fd8b84992a84.zip"
+    recordedResponseCode="200" responseSize="445" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="2c1cdd73-0c40-4d09-aada-9637a61513dd" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2c1cdd73-0c40-4d09-aada-9637a61513dd</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2c1cdd73-0c40-4d09-aada-9637a61513dd.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="false" name="app"
+        recordRawValue="ea7c4b59f27d43eb;end=1" separator="="
+        value="ea7c4b59f27d43eb;end=1" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Content-Type" value="text/plain;charset=UTF-8"/>
+    <header name="Cookie" value="rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; nl_transaction=Back to map; rxvt=1600197351405|1600195542195; dtPC=6$595542186_514h86vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e4; dtCookie=6$8481A681810C25C6442FD13D3A1B0A74|ea7c4b59f27d43eb|1"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Origin" value="http://ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <header name="x-dtreferer" value="http://ushahidi/"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:51 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 282&#xd;
+Content-Type: text/plain; charset=utf-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[app=ea7c4b59f27d43eb&svrid=6&sid=1600195551583&p2_2=ZmZJv0aUsxvH5huJBw%7Cb9110e0m0I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F18%2F79329%2F96958.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb9113e0m0I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F18%2F79327%2F96957.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb9115e0m0I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F18%2F79330%2F96957.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb9115e0m0I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F18%2F79327%2F96958.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb9115e0m0I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F18%2F79330%2F96958.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb9115e0m0I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F15%2F9915%2F12119.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb9423e0f0g0h0i0k1l144m228u25211v24554w24554A2D1I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F15%2F9917%2F12119.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb9426e0f1g1h1i189j57k190l274m276u5169v4513w4513A2I7%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F15%2F9915%2F12120.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb9722m0A2I0%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F15%2F9916%2F12120.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb9722m0A2I0%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F15%2F9914%2F12120.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb9723m0A2I0%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F15%2F9917%2F12120.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb9723m0A2I0%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F15%2F9916%2F12119.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb9422m361A2I0%7Chttps%3A%2F%2Fapi.tiles.mapbox.com%2Fv4%2Fmapbox.streets%2F15%2F9914%2F12119.png%3Faccess_5Ftoken%3Dpk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw%7Cb9422m361A2I0$url=http%3A%2F%2Fushahidi%2Fviews%2Fmap$title=My%20new%20event%20-%20Neotys%20demonstration%20application$sUrl=http%3A%2F%2Fushahidi%2F$sTitle=-$latC=2$app=ea7c4b59f27d43eb$visitID=IFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0$vs=2$fId=595542186_514$v=10199200831173248$vID=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM$nV=1$time=1600195551578$cs=157240912]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/roles"
+    path="/platform/api/v3/roles" postType="2"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/53a49e1c-84ec-4703-88c9-fd8b84992a84.zip"
+    recordedResponseCode="200" responseSize="1098" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="000c313f-fe29-4d71-b960-da189ca720ac" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_000c313f-fe29-4d71-b960-da189ca720ac</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_000c313f-fe29-4d71-b960-da189ca720ac.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer ${fp_oauth_bearer_access_token-3}"/>
+    <header name="Cookie" value="rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; nl_transaction=Back to map; dtCookie=6$8481A681810C25C6442FD13D3A1B0A74|ea7c4b59f27d43eb|1; rxvt=1600197351615|1600195542195; dtPC=6$595542186_514h89vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e5"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <header name="x-dtpc" value="6$595542186_514h88vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e5"/>
+    <header name="x-dtreferer" value="http://ushahidi/posts/2924"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:51 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Content-Length: 1098&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/posts/stats"
+    path="/platform/api/v3/posts/stats" postType="2"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/53a49e1c-84ec-4703-88c9-fd8b84992a84.zip"
+    recordedResponseCode="200" responseSize="503" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="1a22557a-528f-4d32-859d-5dd0f4d35dc8" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1a22557a-528f-4d32-859d-5dd0f4d35dc8</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1a22557a-528f-4d32-859d-5dd0f4d35dc8.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="group_by"
+        recordRawValue="form" separator="=" value="form" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="order"
+        recordRawValue="desc" separator="=" value="desc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="orderby"
+        recordRawValue="post_date" separator="=" value="post_date" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="status"
+        recordRawValue="all" separator="=" value="all" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer ${fp_oauth_bearer_access_token-3}"/>
+    <header name="Cookie" value="rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; nl_transaction=Back to map; dtCookie=6$8481A681810C25C6442FD13D3A1B0A74|ea7c4b59f27d43eb|1; rxvt=1600197351615|1600195542195; dtPC=6$595542186_514h89vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e5"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <header name="x-dtpc" value="6$595542186_514h89vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e5"/>
+    <header name="x-dtreferer" value="http://ushahidi/posts/2924"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:51 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Content-Length: 503&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/savedsearches"
+    path="/platform/api/v3/savedsearches" postType="2"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/53a49e1c-84ec-4703-88c9-fd8b84992a84.zip"
+    recordedResponseCode="200" responseSize="382" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="d04f3f1a-3944-448f-bb18-1b571ccc3073" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d04f3f1a-3944-448f-bb18-1b571ccc3073</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d04f3f1a-3944-448f-bb18-1b571ccc3073.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer ${fp_oauth_bearer_access_token-3}"/>
+    <header name="Cookie" value="rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; nl_transaction=Back to map; dtCookie=6$8481A681810C25C6442FD13D3A1B0A74|ea7c4b59f27d43eb|1; rxvt=1600197351683|1600195542195; dtPC=6$595542186_514h90vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e5"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <header name="x-dtpc" value="6$595542186_514h90vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e5"/>
+    <header name="x-dtreferer" value="http://ushahidi/posts/2924"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:51 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Content-Length: 382&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

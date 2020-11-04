@@ -1,7 +1,6 @@
 <basic-logical-action-container element-number="1" execution-type="0"
     name="Click Add" pacingEnd="0" pacingMode="MODE_NO_PACING"
     pacingStart="0" pacingValue="0" slaProfileEnabled="false"
-    traceVariableNamesAsString=""
     uid="7e0f7592-6b8b-4d89-83c1-322e4cdee790" weightsEnabled="false">
     <weighted-embedded-action uid="f69b99b3-1b0a-4590-996e-7e83edaf2efc"/>
     <weighted-embedded-action uid="3c2dc71f-9dfc-48c2-bb4f-b45d53e62fa5"/>

@@ -1,7 +1,6 @@
 <basic-logical-action-container element-number="1" execution-type="0"
     name="Click Submit" pacingEnd="0" pacingMode="MODE_NO_PACING"
     pacingStart="0" pacingValue="0" slaProfileEnabled="false"
-    traceVariableNamesAsString=""
     uid="f2c4fbd4-145e-4222-9786-72f152432a8a" weightsEnabled="false">
     <weighted-embedded-action uid="49b0c3f6-f23d-49d1-8182-e804532e5c11"/>
     <weighted-embedded-action uid="22764d6c-1bf1-4ebb-897a-6126f0257b67"/>

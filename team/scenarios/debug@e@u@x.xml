@@ -215,8 +215,17 @@
                 monitorName="Misc./ not flushed delayed rows"
                 monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
         </chart-description>
-        <empty-chart-description/>
-        <empty-chart-description/>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="Selenium/Ushahidi App should create new post/Geosearch/Timer" typeName="CLASSIC">
+            <third-party-data-curve-description color="178,140,0"
+                dashed="false"
+                path="Selenium/Ushahidi App should create new post/Geosearch/Timer"
+                scale="1.0" selected="true" unit="ms"/>
+        </chart-description>
     </charts-model-description>
     <!--****** END DASHBOARDS  ******-->
     <!--****** START DATA FILTERS  ******-->
@@ -228,6 +237,7 @@
     <!--****** END DEBUG POLICY ******-->
     <!--****** START VU STATES ******-->
     <!--****** END VU STATES ******-->
+    <!--****** START EXCLUSION FILTER ******-->
     <request-path-exclusion-filter isEnabled="false">
         <regexps>
             <regexp>.*\.jpg</regexp>
@@ -244,6 +254,10 @@
             <regexp>.*\.properties</regexp>
         </regexps>
     </request-path-exclusion-filter>
+    <!--****** END  EXCLUSION FILTER ******-->
+    <!--****** START DYNATRACE MONITORING ******-->
+    <dynatrace-monitoring/>
+    <!--****** END  DYNATRACE MONITORING ******-->
     <!--****** START TRACE VARIABLES ******-->
     <!--****** END TRACE VARIABLES ******-->
 </scenario>

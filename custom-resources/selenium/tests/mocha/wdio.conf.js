@@ -195,6 +195,13 @@ exports.config = {
       if(argv.neoloadDebug) capabilities['neoload:debug'] = true
       if(argv.neoloadMode) capabilities['neoload:w3cEventTypes'] = "mark|measure|paint|longtask|frame|navigation|resource".split("|");
 
+      if(argv.neoloadUseSystemProxies) capabilities['neoload:useSystemProxies'] = false
+      if(argv.neoloadProxyHost) capabilities['neoload:proxyHost'] = argv.neoloadProxyHost
+      if(argv.neoloadProxyPort) capabilities['neoload:proxyPort'] = argv.neoloadProxyPort
+      if(argv.neoloadProxyUser) capabilities['neoload:proxyUser'] = argv.neoloadProxyUser
+      if(argv.neoloadProxyPassword) capabilities['neoload:proxyPassword'] = argv.neoloadProxyPassword
+      if(argv.neoloadNonProxyHosts) capabilities['neoload:nonProxyHosts'] = argv.neoloadNonProxyHosts
+
       browser.startTransaction = function(name) {
         browser.setCookies({ name: 'nl_transaction', value: name })
       }

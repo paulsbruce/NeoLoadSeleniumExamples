@@ -1,0 +1,86 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/main/posts/modify/post-toolbox.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/16f7d585-f6b6-473a-bb7a-f3b4c41cdead.zip"
+    slaProfileEnabled="false" thinkTime="108"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="16f7d585-f6b6-473a-bb7a-f3b4c41cdead">
+    <embedded-action>53674252-558a-4912-9c0b-81b8e84ed6e1</embedded-action>
+    <embedded-action>5c348bb1-4990-4e81-97ce-061ec0030964</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/templates/main/posts/modify/post-toolbox.html"
+    path="/templates/main/posts/modify/post-toolbox.html" postType="2"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/16f7d585-f6b6-473a-bb7a-f3b4c41cdead.zip"
+    recordedResponseCode="200" responseSize="4882" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="53674252-558a-4912-9c0b-81b8e84ed6e1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_53674252-558a-4912-9c0b-81b8e84ed6e1.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_53674252-558a-4912-9c0b-81b8e84ed6e1.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="dtCookie=6$8481A681810C25C6442FD13D3A1B0A74; rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; rxvt=1600197347374|1600195542195; dtPC=6$595542186_514h65vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e2"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/posts/create/4"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <header name="x-dtpc" value="6$595542186_514h62vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e2"/>
+    <header name="x-dtreferer" value="http://ushahidi/views/map"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:47 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:49 GMT&#xd;
+ETag: "1312-5418708f1ad80-gzip:dtagent10199200831173248hQm/"&#xd;
+Accept-Ranges: bytes&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 1182&#xd;
+Content-Type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/avatar/%7B%7B%20post.user.gravatar%20%7C%7C%20'00000000000000000000000000000000'%20%7D%7D"
+    path="/avatar/%7B%7B%20post.user.gravatar%20%7C%7C%20'00000000000000000000000000000000'%20%7D%7D"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/16f7d585-f6b6-473a-bb7a-f3b4c41cdead.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="www.gravatar.com" slaProfileEnabled="false"
+    uid="5c348bb1-4990-4e81-97ce-061ec0030964" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_5c348bb1-4990-4e81-97ce-061ec0030964.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="d"
+        recordRawValue="retro" separator="=" value="retro" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="s"
+        recordRawValue="40" separator="=" value="40" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="www.gravatar.com"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/posts/create/4"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: nginx&#xd;
+Date: Tue, 15 Sep 2020 18:45:47 GMT&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 202&#xd;
+Connection: keep-alive&#xd;
+Last-Modified: Wed, 11 Jan 1984 08:00:00 GMT&#xd;
+Link: &lt;https://www.gravatar.com/avatar/%7B%7B%20post.user.gravatar%20%7C%7C%20'00000000000000000000000000000000'%20%7D%7D?d=retro&amp;s=40&gt;; rel="canonical"&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Expires: Tue, 15 Sep 2020 18:50:47 GMT&#xd;
+Cache-Control: max-age=300&#xd;
+X-nc: HIT ewr 4&#xd;
+Accept-Ranges: bytes</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

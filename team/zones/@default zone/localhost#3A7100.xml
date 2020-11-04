@@ -1,15 +1,21 @@
 <lg-host citrixSupport="false" hostname="localhost:7100" loadWeight="1"
     sapSupport="false" standalone="false" supportWANEmulation="false"
-    uid="83443b18-4bdc-4569-8693-de95f7cda157" version="7.4.0;build=20200528-24">
+    uid="83443b18-4bdc-4569-8693-de95f7cda157" version="7.6.0;build=20200928-41">
     <!--****** LG NETWORK INTERFACES ******-->
     <lg-networkiface description="en0" enabled="false"
         isLoopBack="false" name="en0">
         <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="172.20.20.20">
-            <ip value="172.20.20.20"/>
+        <lg-address enabled="false" hostname="pauls-mbp">
+            <ip value="192.168.43.104"/>
         </lg-address>
-        <lg-address enabled="false" hostname="fe80:0:0:0:185a:1bb7:5e3e:7ed8%en0">
-            <ip value="fe80:0:0:0:185a:1bb7:5e3e:7ed8%en0"/>
+        <lg-address enabled="false" hostname="2600:380:593d:89f6:5018:a4d3:4971:c818%en0">
+            <ip value="2600:380:593d:89f6:5018:a4d3:4971:c818%en0"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2600:380:593d:89f6:5f:9d55:b31b:c87b%en0">
+            <ip value="2600:380:593d:89f6:5f:9d55:b31b:c87b%en0"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:cd7:8cf9:5e36:e1f7%en0">
+            <ip value="fe80:0:0:0:cd7:8cf9:5e36:e1f7%en0"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>

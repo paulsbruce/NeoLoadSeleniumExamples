@@ -1,0 +1,83 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/common/directives/file-upload.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/9f19307a-2e31-4dfe-b8f0-1d1bca263421.zip"
+    slaProfileEnabled="false" thinkTime="91"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="9f19307a-2e31-4dfe-b8f0-1d1bca263421">
+    <embedded-action>e8500d46-ede1-43b1-be19-09c9a6395f76</embedded-action>
+    <embedded-action>e5f5cbab-1014-438f-9640-27ac5705aa67</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/templates/common/directives/file-upload.html"
+    path="/templates/common/directives/file-upload.html" postType="2"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/9f19307a-2e31-4dfe-b8f0-1d1bca263421.zip"
+    recordedResponseCode="200" responseSize="93" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="e8500d46-ede1-43b1-be19-09c9a6395f76" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e8500d46-ede1-43b1-be19-09c9a6395f76.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e8500d46-ede1-43b1-be19-09c9a6395f76.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="dtCookie=6$8481A681810C25C6442FD13D3A1B0A74; rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; rxvt=1600197347866|1600195542195; dtPC=6$595542186_514h71vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e2"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/posts/create/4"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <header name="x-dtpc" value="6$595542186_514h71vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e2"/>
+    <header name="x-dtreferer" value="http://ushahidi/views/map"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:47 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:19 GMT&#xd;
+ETag: "5d-541870727ea00-gzip:dtagent10199200831173248hQm/"&#xd;
+Accept-Ranges: bytes&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 98&#xd;
+Content-Type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/rb_bf42640bbz" path="/rb_bf42640bbz"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/9f19307a-2e31-4dfe-b8f0-1d1bca263421.zip"
+    recordedResponseCode="200" responseSize="445" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="e5f5cbab-1014-438f-9640-27ac5705aa67" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e5f5cbab-1014-438f-9640-27ac5705aa67</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e5f5cbab-1014-438f-9640-27ac5705aa67.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="false" name="app"
+        recordRawValue="ea7c4b59f27d43eb;end=1" separator="="
+        value="ea7c4b59f27d43eb;end=1" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Content-Type" value="text/plain;charset=UTF-8"/>
+    <header name="Cookie" value="rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; rxvt=1600197347866|1600195542195; dtPC=6$595542186_514h47vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e2; dtCookie=6$8481A681810C25C6442FD13D3A1B0A74"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Origin" value="http://ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/posts/create/4"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <header name="x-dtreferer" value="http://ushahidi/views/map"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:48 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Set-Cookie: dtCookie=6$8481A681810C25C6442FD13D3A1B0A74|ea7c4b59f27d43eb|1; Path=/&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 282&#xd;
+Content-Type: text/plain; charset=utf-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[$a=1%7C58%7CWeather%20alert%20v1.2%7CC%7Cg1.5.8%7C1600195546345%7C1600195547968%7C881%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fmain.html%7C-%7Cb1600195546360e0f0g0h0i0k1l481m482u403v68w68z11I1%7C-%7C506%7C506%2C2%7C72%7C_event_%7C1600195546345%7C_vc_%7CV%7C1401%5Epc%7CVCS%7C1600195548103%7CVE%7C376%5Ep558%5Ep36068%5Epc%5Esform-field%20init%7CS%7C1150%2C2%7C59%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195546866%7C1600195547271%7C423%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fposts%7C-%7Cb1600195546914e0f0g0h0i0k1l355m355u493v70w70z11I1%7C-%7C405%7C406%2C2%7C60%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195546872%7C1600195547273%7C423%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fforms%2F4%7C-%7Cb1600195546918e0f0g0h0i0k1l352m353u837v476w476z11I1%7C-%7C400%7C401%2C2%7C61%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195547273%7C1600195547349%7C543%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fpost-editor.html%7C-%7Cb1600195547279e0f0g0h0i0k1l68m69u2282v1915w7333z11I1%7C-%7C76%7C76%2C2%7C62%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195547360%7C1600195547512%7C549%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fpost-toolbox.html%7C-%7Cb1600195547454e0f0g0h0i0k1l55m55u1549v1182w4882z11I1%7C-%7C151%7C152%2C2%7C63%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195547364%7C1600195547517%7C549%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fpost-tabs.html%7C-%7Cb1600195547457e0f0g0h0i0k1l57m57u1105v740w2012z11I1%7C-%7C153%7C153%2C2%7C64%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195547370%7C1600195547619%7C553%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fforms%2F4%2Fstages%7C-%7Cb1600195547460e0f0g0h0i0k1l156m157u1174v813w813z11I1%7C-%7C248%7C249%2C2%7C65%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195547374%7C1600195547608%7C549%7C-%7C-%7C%2Fplatform%2Fapi%2Fv3%2Fforms%2F4%2Fattributes%7C-%7Cb1600195547463e0f0g0h0i0k1l140m143u4654v4292w4292z11I1%7C-%7C234%7C234%2C2%7C66%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195547620%7C1600195547687%7C588%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fpost-value-edit.html%7C-%7Cb1600195547629e0f0g0h0i0k1l57m57u1745v1378w8008z11I1%7C-%7C67%7C67%2C2%7C67%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195547697%7C1600195547829%7C881%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Frelation.html%7C-%7Cb1600195547736e0f0g0h0i0k1l60m61u702v337w670z11I1%7C-%7C131%7C132%2C2%7C68%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195547701%7C1600195547791%7C881%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Flocation.html%7C-%7Cb1600195547740e0f0g0h0i0k1l49m50u752v387w913z11I1%7C-%7C90%7C90%2C2%7C69%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195547706%7C1600195547836%7C881%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fmedia.html%7C-%7Cb1600195547742e0f0g0h0i0k1l60m60u937v572w1791z11I1%7C-%7C128%7C130%2C2%7C70%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195547719%7C1600195547909%7C881%7C-%7C-%7C%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fpost-datetime-value.html%7C-%7Cb1600195547745e0f0g0h0i0k1l61m62u609v244w716z11I1%7C-%7C189%7C190%2C2%7C71%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1600195547865%7C1600195547968%7C881%7C-%7C-%7C%2Ftemplates%2Fcommon%2Fdirectives%2Ffile-upload.html%7C-%7Cb1600195547895e0f0g0h0i0k1l53m54u461v98w93z11I1%7C-%7C102%7C104$svrid=6$dO=ushahidi,$rId=RID_2418$rpId=155479910$domR=1600195544239$fd=g1.5.8$url=http%3A%2F%2Fushahidi%2Fposts%2Fcreate%2F4$title=Create%20Post%20-%20Neotys%20demonstration%20application$vd=6158$sUrl=http%3A%2F%2Fushahidi%2Fviews%2Fmap$sTitle=Posts%20-%20Neotys%20demonstration%20application$latC=2$app=ea7c4b59f27d43eb$visitID=IFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0$vs=2$fId=595542186_514$v=10199200831173248$vID=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM$nV=1$nVAT=1$time=1600195548346$cs=-361883968]]></textPostContent>
+</http-action>

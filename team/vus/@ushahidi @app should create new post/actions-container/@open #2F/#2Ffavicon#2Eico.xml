@@ -1,0 +1,153 @@
+<http-page executeResourcesDynamically="false" name="/favicon.ico"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/9366bda2-8c7f-4c8b-a832-54b53a396f0d.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="9366bda2-8c7f-4c8b-a832-54b53a396f0d">
+    <embedded-action>a7313c02-d13a-4b44-b8c1-ef38717e69ff</embedded-action>
+    <embedded-action>0ece1181-3427-47e5-8cc4-5903d1e3c789</embedded-action>
+    <embedded-action>4565b98d-28ca-432e-8bc5-f6ec57ef2000</embedded-action>
+    <embedded-action>30f829a4-ef6a-4f86-bd95-cf16b3409269</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="2"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/9366bda2-8c7f-4c8b-a832-54b53a396f0d.zip"
+    recordedResponseCode="200" responseSize="7188" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="a7313c02-d13a-4b44-b8c1-ef38717e69ff" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a7313c02-d13a-4b44-b8c1-ef38717e69ff.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a7313c02-d13a-4b44-b8c1-ef38717e69ff.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="dtCookie=6$8481A681810C25C6442FD13D3A1B0A74; rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; rxvt=1600197344337|1600195542195; dtPC=6$595542186_514h12vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e1"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:44 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:45:58 GMT&#xd;
+ETag: "1a82-54186f405d7c0-gzip:dtagent10199200831173248hQm/"&#xd;
+Accept-Ranges: bytes&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 2268&#xd;
+Content-Type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/img/iconic-sprite.svg"
+    path="/img/iconic-sprite.svg" postType="2"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/9366bda2-8c7f-4c8b-a832-54b53a396f0d.zip"
+    recordedResponseCode="200" responseSize="57962" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="0ece1181-3427-47e5-8cc4-5903d1e3c789" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0ece1181-3427-47e5-8cc4-5903d1e3c789.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0ece1181-3427-47e5-8cc4-5903d1e3c789.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="dtCookie=6$8481A681810C25C6442FD13D3A1B0A74; rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; rxvt=1600197344337|1600195542195; dtPC=6$595542186_514h12vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e1"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:44 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:17 GMT&#xd;
+ETag: "e26a-5418706fa2340"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 57962&#xd;
+Content-Type: image/svg+xml</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/platform/oauth/token"
+    path="/platform/oauth/token" postType="4"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/9366bda2-8c7f-4c8b-a832-54b53a396f0d.zip"
+    recordedResponseCode="200" responseSize="120" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="4565b98d-28ca-432e-8bc5-f6ec57ef2000" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4565b98d-28ca-432e-8bc5-f6ec57ef2000</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4565b98d-28ca-432e-8bc5-f6ec57ef2000.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="4" extractTypeAdv="4" extractTypeSimple="0"
+        jsonpath="$.access_token" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="fp_oauth_bearer_access_token-2"
+        regExp="(.*)" regExpAdv="(.*)" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="3804c661-266a-4dd7-bf72-fcc434cc3afe" xpath=""/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Content-Type" value="application/json;charset=UTF-8"/>
+    <header name="Cookie" value="dtCookie=6$8481A681810C25C6442FD13D3A1B0A74; rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; rxvt=1600197344434|1600195542195; dtPC=6$595542186_514h16vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e1"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Origin" value="http://ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <header name="x-dtpc" value="6$595542186_514h16vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e1"/>
+    <header name="x-dtreferer" value="http://ushahidi/"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:44 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Content-Length: 120&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"grant_type":"client_credentials","client_id":"ushahidiui","client_secret":"${fp_oauth_client_secret}","scope":"posts media forms api tags savedsearches sets users stats layers config messages notifications contacts roles permissions csv"}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/platform/oauth/token"
+    path="/platform/oauth/token" postType="4"
+    recordedArtifactZipFileName="team/vus/@ushahidi @app should create new post/%resources%/recorded-artifacts/9366bda2-8c7f-4c8b-a832-54b53a396f0d.zip"
+    recordedResponseCode="200" responseSize="120" serverUid="ushahidi"
+    slaProfileEnabled="false" uid="30f829a4-ef6a-4f86-bd95-cf16b3409269" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_30f829a4-ef6a-4f86-bd95-cf16b3409269</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_30f829a4-ef6a-4f86-bd95-cf16b3409269.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Content-Type" value="application/json;charset=UTF-8"/>
+    <header name="Cookie" value="dtCookie=6$8481A681810C25C6442FD13D3A1B0A74; rxVisitor=1600195542192UDCNQB0JSR91A7CNCFIESBR4UK3NLJPM; dtSa=-; dtLatC=2; rxvt=1600197344434|1600195542195; dtPC=6$595542186_514h16vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e1"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Origin" value="http://ushahidi"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"/>
+    <header name="x-dtpc" value="6$595542186_514h16vIFFHGMEFKJPPKNGUATKJWTNQTWIKWFPH-0e1"/>
+    <header name="x-dtreferer" value="http://ushahidi/"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 15 Sep 2020 18:45:44 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Content-Length: 120&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"grant_type":"client_credentials","client_id":"ushahidiui","client_secret":"${fp_oauth_client_secret}","scope":"posts media forms api tags savedsearches sets users stats layers config messages notifications contacts roles permissions csv"}]]></textPostContent>
+</http-action>
